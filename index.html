@@ -1,74 +1,118 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="বাংলায় AI টুলের ব্যবহার, ফ্রি টুল পরীক্ষা এবং অনলাইনে আয়ের বাস্তব গাইড।">
-<title>AI পথ — বাংলা AI গাইড</title>
+<meta name="description" content="Bangla and English news, online earning guides, cricket, football and AI technology.">
+<title>AI Path Bangla | বাংলা ও English</title>
 <style>
-body{margin:0;font-family:sans-serif;background:#f5f7fb;color:#20283a}
-header{background:#153c32;color:white;padding:25px 16px}
-main{max-width:760px;margin:auto;padding:16px}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f3f6fb;color:#20283a}
+header{background:#153c32;color:white;padding:24px 16px}
+main{max-width:850px;margin:auto;padding:16px}
 h1{margin:0 0 8px}
+button,.category{border:0;border-radius:9px;padding:10px 13px;cursor:pointer}
+button{background:#fff;color:#153c32;font-weight:bold}
+.lang{display:flex;gap:8px;margin-top:15px}
+.lang button.active{background:#d1fae5}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+.category{background:#e1e8f2;color:#20283a}
+.category.active{background:#153c32;color:white}
 .card{background:white;padding:18px;margin:14px 0;border-radius:14px}
-a{color:#087d61}
+a{color:#087d61;text-decoration:none}
+a:hover{text-decoration:underline}
 small{color:#64748b}
 </style>
 </head>
 <body>
 <header>
-<h1>AI পথ</h1>
-<p>বাংলায় AI শেখো, টুল পরীক্ষা করো, অনলাইনে আয়ের পথ জানো।</p>
+<h1>AI Path Bangla</h1>
+<p id="tagline">News, online earning, sports and AI technology.</p>
+<div class="lang">
+<button id="en" onclick="setLang('en')">English</button>
+<button id="bn" onclick="setLang('bn')">বাংলা</button>
+</div>
 </header>
 <main>
 <div class="card">
-<h2>স্বাগতম!</h2>
-<p>এখানে AI টুলের ব্যবহার, বিনামূল্যের সুবিধা এবং অনলাইনে আয়ের উপায় সহজ বাংলায় তুলে ধরা হবে।</p>
+<h2 id="welcome"></h2>
+<p id="intro"></p>
 </div>
+<nav id="categories"></nav>
 <div class="card">
-<h2>ফ্রি AI টুল কীভাবে বেছে নেবে?</h2>
-<p>কোনো টুল ব্যবহারের আগে তার বিনামূল্যের সীমা, গোপনীয়তার নিয়ম এবং ফলাফলের মান পরীক্ষা করো। ফ্রি লেখা থাকলেও সব সুবিধা বিনামূল্যে নাও থাকতে পারে।</p>
-<small>বিভাগ: AI টুল</small>
+<h2 id="latest"></h2>
+<div id="article-list">Loading articles...</div>
 </div>
-<div class="card">
-<h2>অনলাইনে আয়: বাস্তবতা</h2>
-<p>AI দিয়ে কাজ দ্রুত করা সম্ভব, কিন্তু শুধু টুল ব্যবহার করলেই আয় নিশ্চিত হয় না। দক্ষতা, উপকারী কনটেন্ট এবং দর্শক দরকার।</p>
-<small>বিভাগ: অনলাইন আয়</small>
-</div>
-<footer><p>© AI পথ | বাংলা AI গাইড</p>
-<div class="card" id="articles">
-<h2>সাম্প্রতিক আর্টিকেল</h2>
-<div id="article-list">আর্টিকেল লোড হচ্ছে...</div>
-</div>
-<script>
-fetch('./articles.json')
-.then(r => {
-  if (!r.ok) throw new Error('তালিকা পাওয়া যায়নি');
-  return r.json();
-})
-.then(items => {
-  const list = document.getElementById('article-list');
-  list.replaceChildren();
-  if (!items.length) {
-    list.textContent = 'এখনও কোনো আর্টিকেল নেই।';
-    return;
-  }
-  items.forEach(item => {
-    const p = document.createElement('p');
-    const a = document.createElement('a');
-    a.href = './articles/' + encodeURIComponent(item.file);
-    a.textContent = item.title;
-    p.appendChild(a);
-    list.appendChild(p);
-  });
-})
-.catch(() => {
-  document.getElementById('article-list').textContent =
-    'আর্টিকেল তালিকা লোড করা যায়নি।';
-});
-</script>
-
-</footer>
+<footer><small>© AI Path Bangla | News • Earning • Sports • AI</small></footer>
 </main>
+<script>
+let lang=localStorage.getItem('aipath-lang')||'bn';
+let category='all';
+const words={
+en:{
+tag:'News, online earning, sports and AI technology.',
+welcome:'Welcome to AI Path Bangla',
+intro:'Explore news, practical ways to earn online, cricket and football updates, AI tools and technology guides.',
+latest:'Latest Articles',
+loading:'Loading articles...',empty:'No articles in this section yet.',
+cats:[['all','All'],['news','News'],['earning','Online Earning'],['cricket','Cricket'],['football','Football'],['ai','AI & Technology'],['mobile','Mobile Tips']]
+},
+bn:{
+tag:'বাংলা ও ইংরেজিতে খবর, অনলাইনে আয়, খেলাধুলা ও AI প্রযুক্তি।',
+welcome:'AI Path Bangla-তে স্বাগতম',
+intro:'বাংলা খবর, অনলাইনে আয়ের উপায়, ক্রিকেট-ফুটবল আপডেট, AI টুল এবং প্রযুক্তির গাইড পড়ুন।',
+latest:'সাম্প্রতিক আর্টিকেল',
+loading:'আর্টিকেল লোড হচ্ছে...',empty:'এই বিভাগে এখনও কোনো আর্টিকেল নেই।',
+cats:[['all','সব বিষয়'],['news','নিউজ'],['earning','অনলাইনে আয়'],['cricket','ক্রিকেট'],['football','ফুটবল'],['ai','AI ও প্রযুক্তি'],['mobile','মোবাইল টিপস']]
+}
+};
+function setLang(value){
+lang=value;
+localStorage.setItem('aipath-lang',value);
+render();
+}
+function render(){
+const w=words[lang];
+document.documentElement.lang=lang;
+document.getElementById('en').classList.toggle('active',lang==='en');
+document.getElementById('bn').classList.toggle('active',lang==='bn');
+document.getElementById('tagline').textContent=w.tag;
+document.getElementById('welcome').textContent=w.welcome;
+document.getElementById('intro').textContent=w.intro;
+document.getElementById('latest').textContent=w.latest;
+const nav=document.getElementById('categories');
+nav.replaceChildren();
+w.cats.forEach(([id,label])=>{
+const b=document.createElement('button');
+b.className='category'+(category===id?' active':'');
+b.textContent=label;
+b.onclick=()=>{category=id;render();};
+nav.appendChild(b);
+});
+loadArticles(w);
+}
+function loadArticles(w){
+const list=document.getElementById('article-list');
+list.textContent=w.loading;
+fetch('./articles.json').then(r=>r.json()).then(items=>{
+list.replaceChildren();
+items=items.filter(item=>{
+const itemLang=item.lang||'bn';
+const itemCat=item.category||'all';
+return itemLang===lang&&(category==='all'||itemCat===category||itemCat==='all');
+});
+if(!items.length){list.textContent=w.empty;return;}
+items.forEach(item=>{
+const p=document.createElement('p');
+const a=document.createElement('a');
+a.href='./articles/'+encodeURIComponent(item.file);
+a.textContent=item.title;
+p.appendChild(a);
+list.appendChild(p);
+});
+}).catch(()=>{list.textContent='Could not load articles / আর্টিকেল লোড করা যায়নি।';});
+}
+render();
+</script>
 </body>
 </html>
