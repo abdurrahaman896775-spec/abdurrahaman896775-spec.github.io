@@ -1,4 +1,4 @@
-import os, json, urllib.request, html, re
+import os, json, urllib.request, urllib.error, html, re, time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -38,7 +38,7 @@ Create an original, useful website article in {langname}.
 Topic: {topic}
 Category: {category}
 {instruction}
-Write a distinct article for this language, not a translation of another article.
+Write a distinct article for this language, not a translation.
 Include a useful title and 5 to 7 informative paragraphs.
 Return ONLY valid JSON in this exact format:
 {{"title":"Article title","paragraphs":["paragraph 1","paragraph 2","paragraph 3","paragraph 4","paragraph 5"]}}
@@ -49,24 +49,75 @@ Avoid guaranteed income claims and misleading promises.
 
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.7, "maxOutputTokens": 1800}
+        "generationConfig": {
+            "temperature": 0.7,
+            "maxOutputTokens": 1800
+        }
     }).encode()
 
-    req = urllib.request.Request(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent",
-        data=body,
-        headers={"Content-Type": "application/json", "x-goog-api-key": key},
-        method="POST"
-    )
-    with urllib.request.urlopen(req, timeout=120) as response:
-        data = json.loads(response.read().decode())
+    models = [
+        "gemini-flash-latest",
+        "gemini-3-flash-preview",
+        "gemini-3.8-flash"
+    ]
+    errors = []
 
-    text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
-    text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text)
-    result = json.loads(text)
-    if not result.get("title") or not result.get("paragraphs"):
-        raise ValueError("Generated article is incomplete")
-    return result
+    for model in models:
+        url = (
+            "https://generativelanguage.googleapis.com/v1beta/models/"
+            + model + ":generateContent"
+        )
+        for attempt in range(3):
+            req = urllib.request.Request(
+                url,
+                data=body,
+                headers={
+                    "Content-Type": "application/json",
+                    "x-goog-api-key": key
+                },
+                method="POST"
+            )
+            try:
+                with urllib.request.urlopen(req, timeout=120) as response:
+                    data = json.loads(response.read().decode())
+
+                text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+                text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text)
+                result = json.loads(text)
+
+                if not result.get("title") or not result.get("paragraphs"):
+                    raise ValueError("Generated article is incomplete")
+
+                print("AI model succeeded:", model)
+                return result
+
+            except urllib.error.HTTPError as e:
+                errors.append(f"{model}: HTTP {e.code}")
+                print("AI model error:", model, "HTTP", e.code)
+
+                if e.code in (429, 500, 502, 503, 504):
+                    if e.code != 429 and attempt < 2:
+                        time.sleep(2 ** (attempt + 1))
+                        continue
+                break
+
+            except (urllib.error.URLError, TimeoutError) as e:
+                errors.append(f"{model}: {e}")
+                print("Connection error:", model)
+                if attempt < 2:
+                    time.sleep(2 ** (attempt + 1))
+                    continue
+                break
+
+            except (KeyError, IndexError, ValueError, json.JSONDecodeError) as e:
+                errors.append(f"{model}: invalid response ({e})")
+                print("Invalid AI response:", model)
+                break
+
+    raise RuntimeError(
+        "All Gemini models failed. Check API quota, model access and service status. "
+        + "; ".join(errors)
+    )
 
 try:
     existing = json.loads(INDEX.read_text(encoding="utf-8"))
