@@ -35,7 +35,40 @@ small{color:#64748b}
 <p>AI দিয়ে কাজ দ্রুত করা সম্ভব, কিন্তু শুধু টুল ব্যবহার করলেই আয় নিশ্চিত হয় না। দক্ষতা, উপকারী কনটেন্ট এবং দর্শক দরকার।</p>
 <small>বিভাগ: অনলাইন আয়</small>
 </div>
-<footer><p>© AI পথ | বাংলা AI গাইড</p></footer>
+<footer><p>© AI পথ | বাংলা AI গাইড</p>
+<div class="card" id="articles">
+<h2>সাম্প্রতিক আর্টিকেল</h2>
+<div id="article-list">আর্টিকেল লোড হচ্ছে...</div>
+</div>
+<script>
+fetch('./articles.json')
+.then(r => {
+  if (!r.ok) throw new Error('তালিকা পাওয়া যায়নি');
+  return r.json();
+})
+.then(items => {
+  const list = document.getElementById('article-list');
+  list.replaceChildren();
+  if (!items.length) {
+    list.textContent = 'এখনও কোনো আর্টিকেল নেই।';
+    return;
+  }
+  items.forEach(item => {
+    const p = document.createElement('p');
+    const a = document.createElement('a');
+    a.href = './articles/' + encodeURIComponent(item.file);
+    a.textContent = item.title;
+    p.appendChild(a);
+    list.appendChild(p);
+  });
+})
+.catch(() => {
+  document.getElementById('article-list').textContent =
+    'আর্টিকেল তালিকা লোড করা যায়নি।';
+});
+</script>
+
+</footer>
 </main>
 </body>
 </html>
