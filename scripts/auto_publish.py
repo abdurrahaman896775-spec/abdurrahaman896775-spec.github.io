@@ -51,7 +51,7 @@ Avoid guaranteed income claims and misleading promises.
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "temperature": 0.7,
-            "maxOutputTokens": 1800
+            "maxOutputTokens": 3000
         }
     }).encode()
 
@@ -109,9 +109,12 @@ Avoid guaranteed income claims and misleading promises.
                     continue
                 break
 
-            except (KeyError, IndexError, ValueError, json.JSONDecodeError) as e:
+            except (KeyError, IndexError, ValueError) as e:
                 errors.append(f"{model}: invalid response ({e})")
                 print("Invalid AI response:", model)
+                if attempt < 2:
+                    time.sleep(2 ** (attempt + 1))
+                    continue
                 break
 
     raise RuntimeError(
