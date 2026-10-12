@@ -140,15 +140,17 @@ def generate_topic_image(category, topic, stamp):
 
     api_key = os.environ.get("POLLINATIONS_API_KEY")
     if api_key:
+        seed = sum((category + topic + stamp).encode("utf-8"))
         prompt = (
-            f"Editorial illustration about {topic}, category {category}, "
-            "for a helpful beginner blog, clear subject, attractive landscape "
-            "composition, no text or letters"
+            f"Create a distinct editorial illustration showing {topic}. "
+            f"Category: {category}. Make the main subject clearly recognizable "
+            "and specific to this topic. Landscape composition, blog header, "
+            "no text, no letters, no watermark."
         )
         url = (
             "https://gen.pollinations.ai/image/"
             + quote(prompt, safe="")
-            + "?model=flux&width=768&height=512"
+            + f"?model=flux&width=768&height=512&seed={seed}"
         )
         try:
             req = urllib.request.Request(
@@ -161,11 +163,26 @@ def generate_topic_image(category, topic, stamp):
                 image_file.write_bytes(data)
                 print("Generated image:", image_file.name)
                 return "images/" + image_file.name
-            print("Image API returned non-image data; using fallback")
+            print("Image API returned non-image data; trying fallback")
         except Exception as e:
-            print("Image generation failed; using fallback:", e)
+            print("Image generation failed; trying fallback:", e)
 
-    return fallbacks.get(category, fallbacks["earning"])
+    fallback_url = fallbacks.get(category, fallbacks["earning"])
+    try:
+        req = urllib.request.Request(
+            fallback_url, headers={"User-Agent": "AI-Path-Bangla/1.0"}
+        )
+        with urllib.request.urlopen(req, timeout=30) as response:
+            content_type = response.headers.get("Content-Type", "")
+            data = response.read()
+        if content_type.startswith("image/") and data:
+            image_file.write_bytes(data)
+            print("Downloaded category fallback:", image_file.name)
+            return "images/" + image_file.name
+    except Exception as e:
+        print("Fallback download failed:", e)
+
+    return fallback_url
 
 try:
     existing = json.loads(INDEX.read_text(encoding="utf-8"))
