@@ -1,5 +1,103 @@
 [
   {
+    "title": "How to Spot Fake News and Stay Informed Online",
+    "file": "article-en-20261012-062424.html",
+    "lang": "en",
+    "category": "news",
+    "date": "2026-10-12"
+  },
+  {
+    "title": "অনলাইনে সঠিক খবর চেনার উপায়: গুজব থেকে দূরে থাকবেন কীভাবে?",
+    "file": "article-bn-20261012-062424.html",
+    "lang": "bn",
+    "category": "news",
+    "date": "2026-10-12"
+  },
+  {
+    "title": "A Beginner's Guide to Understanding and Playing Football",
+    "file": "article-en-20261012-062356.html",
+    "lang": "en",
+    "category": "football",
+    "date": "2026-10-12"
+  },
+  {
+    "title": "ফুটবলের প্রাথমিক নিয়ম ও খেলার কৌশল: নতুনদের জন্য একটি পূর্ণাঙ্গ গাইড",
+    "file": "article-bn-20261012-062356.html",
+    "lang": "bn",
+    "category": "football",
+    "date": "2026-10-12"
+  },
+  {
+    "title": "A Beginner's Guide to Cricket: Rules and Basic Skills",
+    "file": "article-en-20261012-062328.html",
+    "lang": "en",
+    "category": "cricket",
+    "date": "2026-10-12"
+  },
+  {
+    "title": "ক্রিকেট খেলার সাধারণ নিয়ম ও দক্ষতা: নতুনদের জন্য একটি গাইড",
+    "file": "article-bn-20261012-062328.html",
+    "lang": "bn",
+    "category": "cricket",
+    "date": "2026-10-12"
+  },
+  {
+    "title": "A Simple Guide to Creating Your First AI Video",
+    "file": "article-en-20261012-062219.html",
+    "lang": "en",
+    "category": "video",
+    "date": "2026-10-12"
+  },
+  {
+    "title": "এআই ভিডিও তৈরির সহজ নির্দেশিকা: নতুনদের জন্য কিছু জরুরি টিপস",
+    "file": "article-bn-20261012-062219.html",
+    "lang": "bn",
+    "category": "video",
+    "date": "2026-10-12"
+  },
+  {
+    "title": "Simple Ways to Improve Your Android Phone and Protect Your Privacy",
+    "file": "article-en-20261012-062131.html",
+    "lang": "en",
+    "category": "mobile",
+    "date": "2026-10-12"
+  },
+  {
+    "title": "অ্যান্ড্রয়েড মোবাইল ব্যবহারের জরুরি টিপস ও গোপনীয়তা",
+    "file": "article-bn-20261012-062131.html",
+    "lang": "bn",
+    "category": "mobile",
+    "date": "2026-10-12"
+  },
+  {
+    "title": "A Simple Guide to Useful AI Tools for Beginners",
+    "file": "article-en-20261012-062027.html",
+    "lang": "en",
+    "category": "ai",
+    "date": "2026-10-12"
+  },
+  {
+    "title": "সাধারণ মানুষের জন্য এআই বা কৃত্রিম বুদ্ধিমত্তা: একটি সহজ নির্দেশিকা",
+    "file": "article-bn-20261012-062027.html",
+    "lang": "bn",
+    "category": "ai",
+    "date": "2026-10-12"
+  },
+  {
+    "title": "Practical Online Skills Beginners Can Learn to Earn Income",
+    "file": "article-en-20261012-061914.html",
+    "lang": "en",
+    "category": "earning",
+    "date": "2026-10-12"
+  },
+  {
+    "title": "নতুনদের জন্য অনলাইনে উপার্জনের কিছু বাস্তবসম্মত ও কার্যকর দক্ষতা",
+    "file": "article-bn-20261012-061914.html",
+    "lang": "bn",
+    "category": "earning",
+    "date": "2026-10-12"
+  },
+  {
     "title": "A Beginner's Guide to Everyday Artificial Intelligence Tools",
     "file": "article-en-20261012-054102.html",
     "lang": "en",
