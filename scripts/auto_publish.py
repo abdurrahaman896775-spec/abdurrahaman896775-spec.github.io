@@ -34,24 +34,57 @@ def generate(language, category, topic):
         langname = "English"
 
     prompt = f"""
-Create an original, useful website article in {langname}.
+You are a careful, helpful website editor writing an original article.
+Language: {langname}
 Topic: {topic}
 Category: {category}
 {instruction}
-Write a distinct article for this language, not a translation.
-Include a useful title and 5 to 7 informative paragraphs.
+
+Write a genuinely useful, topic-specific article for beginners.
+Do not translate the other language version.
+Target approximately 650-900 words, with 8-10 substantial paragraphs.
+Every paragraph must provide different, relevant information.
+Never pad the article with repeated generic advice.
+
+Include these elements where relevant:
+1. A clear introduction explaining the exact topic and who it helps.
+2. Important concepts explained in simple language.
+3. Specific steps readers can actually follow.
+4. A realistic example or practical scenario.
+5. Common mistakes and how to avoid them.
+6. Benefits, limitations, costs or requirements where relevant.
+7. Safety, privacy or scam warnings where appropriate.
+8. A useful conclusion with a practical next step.
+
+CATEGORY-SPECIFIC RULES:
+- Earning: explain real methods, skills, beginner steps, likely costs
+  and risks. Never promise income or invent earnings figures.
+- Mobile/technology: give concrete settings, steps or examples.
+  Explain that menu names can differ by device and Android version.
+- AI: explain what a tool can do, its limitations and how to use it
+  responsibly. Never invent features or claim a tool is free without
+  reliable grounds.
+- Cricket/football/sports: explain rules, tactics or skills using
+  evergreen information. Do not invent live scores or results.
+- News/current affairs: never invent events, dates, quotes or statistics.
+  If reliable current information is unavailable, do not pretend it is
+  verified; prefer a clearly useful evergreen topic instead.
+
+Use precise examples related to the topic, not vague phrases such as
+"learn the basics" or "practise regularly" unless you explain exactly
+what the reader should learn or practise.
+Do not fabricate facts, sources, prices, statistics or guarantees.
+Avoid keyword stuffing and misleading titles.
+Create a natural, specific title that accurately describes the article.
 Return ONLY valid JSON in this exact format:
-{{"title":"Article title","paragraphs":["paragraph 1","paragraph 2","paragraph 3","paragraph 4","paragraph 5"]}}
-Do not invent today's news, live scores, match results, statistics, or current events.
-For cricket and football, write an evergreen guide, not a fake live score report.
-Avoid guaranteed income claims and misleading promises.
+{{"title":"Specific article title","paragraphs":["paragraph 1","paragraph 2","paragraph 3","paragraph 4","paragraph 5","paragraph 6","paragraph 7","paragraph 8"]}}
 """
 
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "temperature": 0.7,
-            "maxOutputTokens": 3000
+            "maxOutputTokens": 5000
         }
     }).encode()
 
@@ -187,58 +220,62 @@ try:
 except (FileNotFoundError, json.JSONDecodeError):
     existing = []
 
-for category, topic in topics:
-    stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
-    topic_image_url = generate_topic_image(category, topic, stamp)
+# Safe single-article test: Bengali earning article only.
+category, topic = topics[0]
+stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
+article = generate("bn", category, topic)
 
-    for language in ("bn", "en"):
-        article = generate(language, category, topic)
-        if not article:
-            continue
-        normalized_title = re.sub(r"[^\w]", "", str(article.get("title", "")).casefold(), flags=re.UNICODE)
-        existing_titles = {re.sub(r"[^\w]", "", str(item.get("title", "")).casefold(), flags=re.UNICODE) for item in existing}
-        if not normalized_title or normalized_title in existing_titles:
-            print("Skipping duplicate/empty title:", article.get("title", ""))
-            continue
-        filename = f"article-{language}-{stamp}.html"
+if article:
+    normalized_title = re.sub(
+        r"[^\\w]", "", str(article.get("title", "")).casefold(),
+        flags=re.UNICODE
+    )
+    existing_titles = {
+        re.sub(r"[^\\w]", "", str(item.get("title", "")).casefold(),
+               flags=re.UNICODE)
+        for item in existing
+    }
+
+    if not normalized_title or normalized_title in existing_titles:
+        print("Skipping duplicate/empty title:", article.get("title", ""))
+    else:
+        filename = f"article-bn-{stamp}.html"
         title = html.escape(str(article["title"]))
-        paragraphs = "\n".join(
+        paragraphs = "\\n".join(
             "<p>" + html.escape(str(p)) + "</p>"
             for p in article["paragraphs"]
         )
-        image_url = topic_image_url
         page = f"""<!DOCTYPE html>
-    <html lang="{language}">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{title} | AI Path Bangla</title>
-    <meta name="description" content="{title}">
-    <style>
-    body{{font-family:Arial,sans-serif;line-height:1.8;max-width:800px;margin:24px auto;padding:16px;color:#20283a}}
-    a{{color:#087d61}}article{{background:#fff;padding:18px}}small{{color:#64748b}}
-    img.article-image{{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;border-radius:12px;margin:16px 0 22px}}
-    </style>
-    </head>
-    <body><a href="../index.html">Home / হোম</a>
-    <article><h1>{title}</h1>
-    <img class="article-image" src="{image_url}" alt="{title}" loading="lazy">
-    <small>Category: {html.escape(category)} | Language: {language}</small>
-    {paragraphs}
-    </article></body></html>"""
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{title} | AI Path Bangla</title>
+<meta name="description" content="{title}">
+<style>
+body{{font-family:Arial,sans-serif;line-height:1.8;max-width:800px;margin:24px auto;padding:16px;color:#20283a}}
+a{{color:#087d61}}article{{background:#fff;padding:18px}}
+</style>
+</head>
+<body><a href="../index.html">Home / হোম</a>
+<article><h1>{title}</h1>
+<small>Category: earning | Language: bn</small>
+{paragraphs}
+</article></body></html>"""
         (ARTICLES / filename).write_text(page, encoding="utf-8")
         existing.insert(0, {
             "title": str(article["title"]),
             "file": filename,
-            "lang": language,
+            "lang": "bn",
             "category": category,
             "date": str(today)
         })
         print("Created:", filename)
 
-# Keep the newest 200 entries; existing older entries are preserved within this limit.
-INDEX.write_text(
-    json.dumps(existing[:200], ensure_ascii=False, indent=2) + "\n",
-    encoding="utf-8"
-)
-print("Article list updated.")
+    INDEX.write_text(
+        json.dumps(existing[:200], ensure_ascii=False, indent=2) + "\\n",
+        encoding="utf-8"
+    )
+    print("Article list updated.")
+else:
+    print("No article created; existing article list left unchanged.")
