@@ -248,6 +248,15 @@ if article:
             "<p>" + html.escape(str(p)) + "</p>"
             for p in article["paragraphs"]
         )
+
+        image_path = generate_topic_image(category, topic, stamp)
+        image_url = "../articles/" + image_path if image_path.startswith("images/") else image_path
+        image_html = (
+            '<img src="' + html.escape(image_url, quote=True) +
+            '" alt="' + html.escape(str(article["title"]), quote=True) +
+            '" style="width:100%;height:auto;border-radius:12px;margin:16px 0">'
+        )
+
         langname = "bn" if language == "bn" else "en"
         page = f"""<!DOCTYPE html>
 <html lang="{langname}">
@@ -264,6 +273,7 @@ a{{color:#087d61}}article{{background:#fff;padding:18px}}
 <body><a href="../index.html">Home / হোম</a>
 <article><h1>{title}</h1>
 <small>Category: {html.escape(category)} | Language: {language}</small>
+{image_html}
 {paragraphs}
 </article></body></html>"""
         (ARTICLES / filename).write_text(page, encoding="utf-8")
