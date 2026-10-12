@@ -23,10 +23,9 @@ topics = [
 ]
 
 today = datetime.now(timezone.utc).date()
-category, topic = topics[today.toordinal() % len(topics)]
 stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
 
-def generate(language):
+def generate(language, category, topic):
     if language == "bn":
         instruction = "Write natural, simple Bengali for readers in India."
         langname = "Bengali"
@@ -124,7 +123,7 @@ Avoid guaranteed income claims and misleading promises.
     )
 
 
-def generate_topic_image():
+def generate_topic_image(category, topic, stamp):
     image_dir = ARTICLES / "images"
     image_dir.mkdir(parents=True, exist_ok=True)
     image_file = image_dir / f"{category}-{stamp}.jpg"
@@ -173,45 +172,47 @@ try:
 except (FileNotFoundError, json.JSONDecodeError):
     existing = []
 
-topic_image_url = generate_topic_image()
+for category, topic in topics:
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
+    topic_image_url = generate_topic_image(category, topic, stamp)
 
-for language in ("bn", "en"):
-    article = generate(language)
-    filename = f"article-{language}-{stamp}.html"
-    title = html.escape(str(article["title"]))
-    paragraphs = "\n".join(
-        "<p>" + html.escape(str(p)) + "</p>"
-        for p in article["paragraphs"]
-    )
-    image_url = topic_image_url
-    page = f"""<!DOCTYPE html>
-<html lang="{language}">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{title} | AI Path Bangla</title>
-<meta name="description" content="{title}">
-<style>
-body{{font-family:Arial,sans-serif;line-height:1.8;max-width:800px;margin:24px auto;padding:16px;color:#20283a}}
-a{{color:#087d61}}article{{background:#fff;padding:18px}}small{{color:#64748b}}
-img.article-image{{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;border-radius:12px;margin:16px 0 22px}}
-</style>
-</head>
-<body><a href="../index.html">Home / হোম</a>
-<article><h1>{title}</h1>
-<img class="article-image" src="{image_url}" alt="{title}" loading="lazy">
-<small>Category: {html.escape(category)} | Language: {language}</small>
-{paragraphs}
-</article></body></html>"""
-    (ARTICLES / filename).write_text(page, encoding="utf-8")
-    existing.insert(0, {
-        "title": str(article["title"]),
-        "file": filename,
-        "lang": language,
-        "category": category,
-        "date": str(today)
-    })
-    print("Created:", filename)
+    for language in ("bn", "en"):
+        article = generate(language, category, topic)
+        filename = f"article-{language}-{stamp}.html"
+        title = html.escape(str(article["title"]))
+        paragraphs = "\n".join(
+            "<p>" + html.escape(str(p)) + "</p>"
+            for p in article["paragraphs"]
+        )
+        image_url = topic_image_url
+        page = f"""<!DOCTYPE html>
+    <html lang="{language}">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{title} | AI Path Bangla</title>
+    <meta name="description" content="{title}">
+    <style>
+    body{{font-family:Arial,sans-serif;line-height:1.8;max-width:800px;margin:24px auto;padding:16px;color:#20283a}}
+    a{{color:#087d61}}article{{background:#fff;padding:18px}}small{{color:#64748b}}
+    img.article-image{{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;border-radius:12px;margin:16px 0 22px}}
+    </style>
+    </head>
+    <body><a href="../index.html">Home / হোম</a>
+    <article><h1>{title}</h1>
+    <img class="article-image" src="{image_url}" alt="{title}" loading="lazy">
+    <small>Category: {html.escape(category)} | Language: {language}</small>
+    {paragraphs}
+    </article></body></html>"""
+        (ARTICLES / filename).write_text(page, encoding="utf-8")
+        existing.insert(0, {
+            "title": str(article["title"]),
+            "file": filename,
+            "lang": language,
+            "category": category,
+            "date": str(today)
+        })
+        print("Created:", filename)
 
 # Keep the newest 200 entries; existing older entries are preserved within this limit.
 INDEX.write_text(
