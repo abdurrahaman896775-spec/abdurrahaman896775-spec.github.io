@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-10-12T08:16:09.636087+00:00",
+  "updated_at": "2026-10-12T13:12:26.216330+00:00",
   "items": [
+    {
+      "category": "news",
+      "lang": "bn",
+      "title": "দিল্লি থেকে আহমেদাবাদে সরে যাচ্ছে ভারতের ম্যাচ? জল্পনার মাঝে মুখ খুললেন বিসিসিআই সচিব - Sangbad Pratidin",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbFk2UXB1bXVRSEIwUTFvanl1QkhyOC1kc3A2V3BYNHQtUXFsT3NkVEpBd1dSc215MjVFSjBRTllqMlh0OVRUcnF2ZXZpdHBnMU9vMUR5aDdEYlBjSHozb2xJWTRIYVlFeWZkN3NjVHdXWGZkZlo0LS1ST0J1UVp1d0ZIN084LW9tU1pTbkZoN3E4X0lhZmlQZmFqZ21Fc3cwemZCbHVGajRsSHRpb25vZl9fOGhuWnM2MzBLMExKQXZoSF9LSHJCWjVBd3dsTnFBbEVUeDd0Uy1FOFXSAdsBQVVfeXFMTWxZNlFwdW11UUhCMFExb2p5dUJIcjgtZHNwNldwWDR0LVFxbE9zZFRKQXdXUnNteTI1RUowUU5ZajJYdDlUVHJxdmV2aXRwZzFPbzFEeWg3RGJQY0h6M29sSVk0SGFZRXlmZDdzY1R3V1hmZGZaNC0tUk9CdVFadXdGSDdPOC1vbVNaU25GaDdxOF9JYWZpUGZhamdtRXN3MHpmQmx1Rmo0bEh0aW9ub2ZfXzhoblpzNjMwSzBMSkF2aEhfS0hyQlo1QXd3bE5xQWxFVHg3dFMtRThV?oc=5",
+      "published": "Mon, 12 Oct 2026 10:48:26 GMT",
+      "source": "Sangbad Pratidin"
+    },
+    {
+      "category": "news",
+      "lang": "bn",
+      "title": "খুলল না আমেদাবাদের ভাগ্য, দিল্লি থেকে সরছে না ভারত-শ্রীলঙ্কা ম্যাচ - Ei Samay",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcXBSNE1scVRLbWUxU0tLRUprQmg0Wkdud1J6YzhrME1oV2ROcjc1Sk9Idnd5WjdpN3dJTkM4WTVyTkc2YWtvMHdUQkZmRno4V2NCcjF5QlZrc2dWTWVqRktMZEFDODZQOTlEeE05Vlc0S1JKQ1JXX3FRbjR6TWd2ZlRrUU5wOEE1Q0VxY1hLZjZ4RWhDY1hjZGtqM1Z5Tzd1UDN3ekRBT1ZqcGMwbHl5WVU2R216bknSAcQBQVVfeXFMTzZJYXotZUo0SmlhZ290bVhEajQyN3U0YjlNVFVMRkNCa3N0Y1dxQ0JNMGRZSzZWc254RHdKNzFISlFVbkZNbWpTblQwT3JoczNNb1JlWmhuRFYwWVoyN2xHVk03OFRKMVlNVVVfQURGRjNBMXJDUjhiNWpRT0NzRERYdElpVnpEVEFiZTNyUkdOcXBUb2pRMzdyX2RVaTc5TXRXSmY3VVdlOEdka25hbG1OYzFHWmRLTmNhZWVCUWQ0bDNsVw?oc=5",
+      "published": "Mon, 12 Oct 2026 12:12:50 GMT",
+      "source": "Ei Samay"
+    },
+    {
+      "category": "news",
+      "lang": "bn",
+      "title": "ভারতকেই পছন্দ ইউরোপীয় গাড়ি নির্মাতাদের: গয়াল - Aaro Ananda",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRG1Pd204a1JJbW5OczNoS3lZSEx5Y2ZZSDhPWS1rRnQ3ZGVWa1RaZ3I2RG9CTTRLLTFfNE9VWXlGMDBwMk5VUzhqMnRmTDJDd0w1a3JvenpDTkxxVVFtckZlbXpWZUllTU5kYzc2SUdaLWM5QzNaT2VQU3Q0RkxRXzdBZHRoVXlBMEVRbFAzcEdvMFp1Y1g1eFI0bkhyU2FIZFRVem1sS2tnc3NoazVqZUJBdThOMWNOODJWNUhWMlZPUkQxUXZvcGJzYkY?oc=5",
+      "published": "Mon, 12 Oct 2026 10:03:15 GMT",
+      "source": "Aaro Ananda"
+    },
     {
       "category": "news",
       "lang": "bn",
@@ -8,6 +32,30 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUjZLUHlqZVlGZllCbFJ4eUx0RmVBZGRlU1hBb2VvMmpzUnJ5VFlYcDJ2N29VZHNPWDJBQU5BY09jeGNKQkZ3MjFFMlJBOFI3ZXJYNXdYYUM3SEh5MHlkaGlZaWU2VWhhWjBfZGVMQ2d0cVhvS2REc0pvOGN2bzRrWm03NlFiSFpYdzZTN3J1Sl8xTk9heWp6X0U5V3FlQm9WeHFDWFN5SnFtZ9IBrwFBVV95cUxPeHZjcmpXaFZyVW9XZmlkM09SZFU2Qk5HZmdBRGpENEl2bGhUTlo2MTdqUHlISmxEVjhjZDhtcEdlemdvWVNzUnIxS2Z2MXprNFRXelh1R2FxTUk0d09wLXkwUEpIZjE2VnFRYlVua3F0N2c0aE43WlVRbV9MVDAwVUVqMTM5WWVnSlZPRWlnYTZsMzVMdVQ4U19zRHRsVzdha2xmWlFPdmJiV1N6eDZ3?oc=5",
       "published": "Mon, 12 Oct 2026 04:46:10 GMT",
       "source": "ABP Ananda"
+    },
+    {
+      "category": "news",
+      "lang": "bn",
+      "title": "অন্য দেশকে শর্ত চাপিয়ে দেওয়ার জন্য নয়, নিজেদের ওপর কারও শর্ত চাপানো আটকাতেই শক্তিশালী হতে চায় ভারত: উপরাষ্ট্রপতি - Jagarantripura.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbDI4N3A4NkozbEhhamRfTUkzdHVJSmVzdm96UHdKQTI2WVZQTHBZM25zOE9QRm5tUXdnWEZaUnZvMGk4VmRjYVd1eHQ2VDRXZjNXdHdtZnVuLUN4V2oxMnBJTHlOMWRmaE5xN0JhSndlVnQ2U2NCelcyY3NzZkpOSEVsRUlFSFpaa2g3Y3hfM3NNSFlNR1NpT1ZWZkJqempOaHlNQk5MLVFjd1RxZnlndGFjc2xFOE1CZVpoUkwtMXhtTGQxZUVBNXc5bTlnQQ?oc=5",
+      "published": "Mon, 12 Oct 2026 12:18:00 GMT",
+      "source": "Jagarantripura.com"
+    },
+    {
+      "category": "news",
+      "lang": "bn",
+      "title": "India unemployment rate: ভারতের বেকারত্বের হার কোন সত্যিটা আপনাকে জানায় না? - TV9 Bangla",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc3ZoaXJwTGo1cmFkeERNYkpYM0lpdGdSTHBUdDhJLWJJbUI1ekJPUTlNX01WaklBci1NR0tKVHBjM0JoSWktRkVJc2tDd0gzR3FvdTJ0TFFEYjBGcndBNmZkZEFFOXhSWlpjWGJReXV6YzNadXh1V3lBQWN5RG9vOFhWSjJDeXpMdjJJTENhaWFUVTVDMVk4cDdjWmR2cHJHcjJ1ZC1Pb2x5VktwQjBZSHZ3?oc=5",
+      "published": "Mon, 12 Oct 2026 10:00:18 GMT",
+      "source": "TV9 Bangla"
+    },
+    {
+      "category": "news",
+      "lang": "bn",
+      "title": "বিশ্বের ধনী দেশগুলির দরিদ্রতম ১০ শতাংশের আয়ও ভারতের ধনীতম ১০ শতাংশের চেয়ে বেশি! - KolkataTV",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSmtWckFjc2U5eHY2QUlsOEEzeDRsUTFGZXhFSHFNb1dycmtMdklZTkdRb2lBQzEzUm81N3hKVk5KZkVmeTdmcFpYczlUeEJFcGkyVS1GVG1taGtSUW1yaUJyLTFkeDNVbW95STEtRnlrZUU3aTE0aWJKYlFBQnhEeWlhbHRhbW8tcVA0S1dNOVZ4LTd3U1RCT21uUDhyMHR3d2E4RnR2andTbkp0dGhJdjJMaGRfT21TRDl4NnhuS09FUW1lM1ZGT2JPak1MYk5JUlh0Slh5NzNLLUpLa3FxdGdZeFFGQktZSkE?oc=5",
+      "published": "Mon, 12 Oct 2026 10:26:44 GMT",
+      "source": "KolkataTV"
     },
     {
       "category": "news",
@@ -20,145 +68,25 @@
     {
       "category": "news",
       "lang": "bn",
-      "title": "হরমুজ়ে দুই জাহাজে হামলা, নিখোঁজ দুই ভারতীয় - Aaro Ananda",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb0hPbGVZVFplOUw4Z2UzQ0NFMmVJenNQcGR6TFlhbk9KQmNxaUNpaFBvbG9jeFV1ZFZZZzQ4UDVRZVhQTmJaeE5aU2h0U2VjT3VDWEM1Wm5PM0QwQmRmcmtzVG11Qlc2UU9MTUJEcENLdVRXMTRRLWdQQlRCTlpweFRXMWp6N2ZjNzlDSHIyY0ZPM0tzbG1Yb2lQc29CalhtWUpMRmJfOWhnRWNrek1JRWdjUnEzRzVlSDZRdFZB?oc=5",
-      "published": "Mon, 12 Oct 2026 05:30:00 GMT",
-      "source": "Aaro Ananda"
-    },
-    {
-      "category": "news",
-      "lang": "bn",
-      "title": "আত্মতুষ্টির জায়গা নেই, ক্যারিবিয়ানদের বিরুদ্ধে সিরিজে এগিয়ে গিয়েও সতর্ক শ্রেয়স - Sangbad Pratidin",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOOWZSY3BQV1lKTlBfNDhuazdUVjY4ZkUwMEgwUGo1Slhnc1R1aW85eG1lOGszd1B1dVM3VWJrUllMOV9aQ1NMa2U3WGFqVmZMX1BmV29QR183Rl92Qy1rbmg5OERIekY3OG4wcDkzbFR6YkJ4Nl80aVdOX3ByS1hKRXFsbG5UYVNleG93eWh4eFNqbkIyNTA2NV9EbVNxb2lubWNEQVBmV3dtdjNPMDlneVBIMEwxZk5DMlpGZWMyZEVPQmo0SDV4TEthcXFFWjBhQjk3Nk1zQXpqZ01BT0hNUEtPU3B4RFhS0gHoAUFVX3lxTE45ZlJjcFBXWUpOUF80OG5rN1RWNjhmRTAwSDBQajVKWGdzVHVpbzl4bWU4azN3UHV1UzdVYmtSWUw5X1pDU0xrZTdYYWpWZkxfUGZXb1BHXzdGX3ZDLWtuaDk4REh6Rjc4bjBwOTNsVHpiQng2XzRpV05fcHJLWEpFcWxsblRhU2V4b3d5aHh4U2puQjI1MDY1X0RtU3FvaW5tY0RBUGZXd212M08wOWd5UEgwTDFmTkMyWkZlYzJkRU9CajRINXhMS2FxcUVaMGFCOTc2TXNBempnTUFPSE1QS09TcHhEWFI?oc=5",
-      "published": "Mon, 12 Oct 2026 03:50:36 GMT",
-      "source": "Sangbad Pratidin"
-    },
-    {
-      "category": "news",
-      "lang": "bn",
-      "title": "Rahul Gandhi | জ্ঞানেশ ইস্যুতে রাহুলের ভিডিও বার্তা, কী বললেন শুনুন #shorts #zee24ghanta #rahulgandhi #gyaneshkumar #latestnews - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMirwVBVV95cUxQbktucjRpeUk3elltaWRBYzkzb09iNm9ZMk1VYlhXNWZDX2JoQXhBbU5BaE1mVHRrZGkxclcxc19jZUlqR0VPSzFzbG5WMlB5RjlNN3lMRWtSRWdKQmJLMXFCaTJuMW83THJQNEpuSGNBeHpIMVNHVlZjblF5eEdCTEsxNUF4SnFyNWJXODRLaTVUeGFNMUhONHd5OU54RjBCZWlQLUJXWmQtamVDNHp4SGpqdzcwdFFGZlBCVmM2b2xQQTNfOThmTkQ2dkJqMVJCdjZPWmxGRVBLZjFzRkJ2NVlzeVJWNk5jOFYwQm4xNlNiZFFPT0NGbzVNUGxIUWNsRHJkcU9BQjVfaWV4YWs4NktSWE9mcFpuNXBOanRjdmdTS2FZNjlIbTBpRTVpOEZrM3ZKZTRPVnBYNGhaMTh6ZGk2Z1BVNk1sbzVTakh4UGpDS0d1SkQxb25sU09fRHpTNF9aelhiY0RHRzlSYmRiRXdKTHd0QXd3bWs0THlQU2tjb2pqUmxHdlZrbmpEMTd6SlpsMjV6LTdhZlYzcDR5VG9RTTQtMEczb2taUEFwNlBkcTNVQUpoYnhJSS1SdDlZa2xfeVhjdDBqSm5vekVBT1hLQ3RYeXcweHNvbFBBMmhFcnJhVnJKVnFpQ0N6TTVwYUZDUGVXdDAzNUJ6dE1IU2F6VHBYU3lxVDg5NUE4SGx5bHRyZlpsRnIweFRHT0t2ZkRUZzBmblhJeGw1ZkRBemdiZlRpNFktSXh2a0pWWlZFRnU4SXZYYTlBeGlENVNuYkI0VzBlZmEyMXlrSHZpTjk2SGdXRExidjVEY3EzMFZnZTZXTE00aFo4ckVIZHZIa29JTEVYRzJaR1ZrUXREWFMwWUdpOEV5ZGczWVBUY1U4VkRCTFE4dXVOSU5yRW8?oc=5",
-      "published": "Sun, 11 Oct 2026 17:59:05 GMT",
+      "title": "Dilip Ghosh | 'আমরা আগেও বলেছি, CJP-র আন্দোলনে বিদেশি অর্থ ও শক্তি আছে' #shorts #DilipGhosh #CJPMovement #BengalPolitics #ForeignFunding #Zee24Ghanta #Shorts - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxOZ1hVdlhseXhwUGdhb0w2VEp0U3l1QWRqbG80TXZ6d3ZELTMtQ1pwU1NCcWQ5V2lCVXJyYW5HVmtUZGVkZlQyT3FXaHdKSE5keGJDUTAxaC1Lc3dGaWVoLVdqaWFyT3M2dU5GRkFzVjRNYXRmVTJKTlNid0Q0X1h6RnJKaXVsaGRIeTJqdmZraGU2QThleEdYRjdJN2EtWEVfQ3o0V2hEaFc1OE1Yam0zcGtQOG9vSjRLNVJLcjdYUFdRRC03VVI4cE9ERXprT3pwcGdEVW5LSm9wWHNuNlJONFhiS3B4QU9XeUZ4Rkg4VTZtSW95eHctcHdzVmJyaXp1SFJ4QnF5dkNGWnp2V0FqaWd5MWUwWUJIeXl1dTk3MHVVaGlObGdJZGFnMGRqMHdGMExBMTJ1SnprOWNvaFRKVG5LXzdnNGNmcFY3X2ZRdk1ZMGh4eXJhaDVqZ3RtQ3JmN2tSSFdGR0Nqa011TXFGUVp6MnBJU2JRblgwVFB4Q2syalBQS0JVVWVQbnlWQlVGOTdiSWlOZ2pSS0FISGFXZjdYS2stZnV6ZG5NbUlZY2dpVmswdTZfWklUbzNMM1VOdFpsb1VQbl9XNHJENnA1d1FMNTJIZlI4dlBhTnh0elRraEo5Tmd0eTQxRDBOZTY1MnNHRmkzRkxPZVU1eDFScGF4Ylp5RFVmWDFhNU43MkpfZWMzSjhwUklCNWdtUTczbE43U0k1V1RTWlVPMEJhR25GZF9GZzctd0tLOEpBNnlpeklvTXVqTUszUEtzMU9SZjhkcFJnZ3BCcXQ1QnhXMHBBUmZCbXM0bzFicUdYMHJiUk93ZDJtT2pXWlNiRlVFNUxRbFlIdGZMOWQ1aHc?oc=5",
+      "published": "Mon, 12 Oct 2026 08:37:51 GMT",
       "source": "Facebook"
     },
     {
       "category": "news",
       "lang": "bn",
-      "title": "ভারতীয়দের সস্তায় ইন্টারনেট পরিষেবার অঙ্গীকার মাস্কের - Ei Samay",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQN01iV0dxNDgzVW5JUmlJczJuaDlhQ2RFRlQxaElSTGR1OVRTWDZwaE9DRlRDZllZck93N1J3RnQtaDdiSTcxWlAxbkM4NU1Cc2FuSnA4NlZqZ2Q2SDFSZGhVMEkxT3BmMW5rbTRTYUtac09hOTg3R05sd1BLbEladmhKYVhGODl6UVVaN3k3N1JZT0NCWElCWXJ0QVJWLWJ0bHFsSDFCSHpRUmZuYjhhbUJFb25tM296STVUSFlPc9IBvwFBVV95cUxQN01iV0dxNDgzVW5JUmlJczJuaDlhQ2RFRlQxaElSTGR1OVRTWDZwaE9DRlRDZllZck93N1J3RnQtaDdiSTcxWlAxbkM4NU1Cc2FuSnA4NlZqZ2Q2SDFSZGhVMEkxT3BmMW5rbTRTYUtac09hOTg3R05sd1BLbEladmhKYVhGODl6UVVaN3k3N1JZT0NCWElCWXJ0QVJWLWJ0bHFsSDFCSHpRUmZuYjhhbUJFb25tM296STVUSFlPcw?oc=5",
-      "published": "Mon, 12 Oct 2026 04:09:00 GMT",
-      "source": "Ei Samay"
-    },
-    {
-      "category": "news",
-      "lang": "bn",
-      "title": "2 Indians Missing in Strait of Hormuz: হরমুজ প্রণালীতে বাণিজ্যিক জাহাজে হামলা, নিখোঁজ ২ ভারতীয়! কড়া বার্তা দিল্লির | Hindustan Times Bangla - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPRjN2UzFRSWJBa0NwejNUNnZrZlZaRHpQR2JUQ3AzbEY5VWtlYkFNS211MFI1SHlzTHZkSEpRZ2Iwam5Ec2lub0VvOG5waGdwQzlWX0dRS1dMZTBtclFDOVVsR3pvTWlMUWQxUUdIMDNMXzBsVUc0SFdTMWRfUS0tMHRpLXZTTzVJbHBPbDI5Vjdra1RDS2VhZE0zeEVfMURPUDJpYTZ1bXNsUTZONnB0MDU2YUVwMGlvOHpWWVBpSUZYNEs3bXpqSkhwWnp6dmkta2Q2eEwxTkRuN19QUDlvLTBQc0RXYU5VT3ZSN0VndnNnU0VlUTA3NDg3RVJRUndXVzdjbklR0gGLAkFVX3lxTFBlVHpQamxLZURLTldfVWJQaFZ1em42MlAxMEFfUWdzT0VObG5ySzdJVUpmcnlCUDY5OVAwWFlFbmVIeG00a1lCbW9nczV2S2dFZnlTcDdySkt6Z1JPVmxxWDJfblNLN0YySnVwS3BocnZlakFnSnB2cnYyVk9UbThnSERyWVVfWTVyaGVzTC1hdlB4M3dDTDFrelBoSlBuNzRkaFBzemdGLXE2T195SE40bE1QdkhodlJ1TWp0dWVOYVdkM3NkSmlsY25BbzlrclpELVJaTURoZGJudmw0b3NaQUZmWUZNQm5GTXk5WUQwcm85WENVNmVBZFFwdlIwMEdZZ0drTXl0WnRFTQ?oc=5",
-      "published": "Mon, 12 Oct 2026 02:32:44 GMT",
-      "source": "Hindustan Times"
-    },
-    {
-      "category": "news",
-      "lang": "bn",
-      "title": "আজ সুপ্রিম কোর্টের পথে I.N.D.I.A - BiswaBangla Sangbad",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS3JlQmVtNjcyQmQxbjQxNldodFA1aHFld3RiSkZZWjhtZlRaODhWdERwcXp2VzhoU1FXLTE2SmtFMGxDU0FsQlBkZXFuZGF6U3ZIdlNHRW5lTlZQelowSEVEamI2R2pxR1BUdktrUzAxUFdaWDJmeng5NDhLOWp1SXB0U1lKNXBBYmthUk1EOWs2eXNS?oc=5",
-      "published": "Mon, 12 Oct 2026 02:41:12 GMT",
-      "source": "BiswaBangla Sangbad"
-    },
-    {
-      "category": "news",
-      "lang": "bn",
-      "title": "Abhishek Sharma: নির্মম হও, ভারতীয় দলকে বার্তা অভিষেকের, ব্যাট হাতে তাণ্ডব চালিয়ে ওয়েস্ট - ABP Ananda",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNb0tLWlNFQkZyQXVNOEtwQXlmR0RPRWVZVXZzVC1aUHUxVGt2TlhOM2pvemwxaGZWMlZkWXMzWTY5VTBfN3BzLWI0dFpmX1FjanFTS3RVZHAzMERBSDM2MG5ZMVhTOGVXWjVjTk1GTk15eXp4NTdTUlp5OXRqQmo4Ny1hWTJVbmQ4d21tdXZwQm1BOEltSHU5dzZBVHpKTFpGQ0pEZVp6dTRDaFhURFY0a1ZocWVGbHJIS0YtczYwaE5TVmllNVVoM1ZWTGJvVmhJdHA5ZXB6ZVlBSkdKcUJIM2dZQ0pub1MwTkHSAe8BQVVfeXFMT09wR1JaNjBJNVNMTVZzOVQ0M1hHUVRTWGdaWjl6cDZLYmZzX1JKZ29xd1p1M2NtUzM5T3E3Sk9CeDZIYzVNVi1NNzJaUU5OUC05TlkzVUIzUUJOc0doczZ2MnRaT09uOWVwd3ZZb2JTeHdVY1VtUERwX0ZnLWJLamhpcmFqWHhMWFVOb3NFMzlIZ3pCT2cwMGZSVWhmQmxMMFVXZnk1cWhkOHAtR0VURzl3MFlwd01jVEpxUFE4UWRZd1hNR3N0a1Q1T3pCUDV4cVlqNDdMX09mNXdOUlVOUG9jSHlGb1hqUTNGY2l2aUk?oc=5",
-      "published": "Mon, 12 Oct 2026 07:27:51 GMT",
-      "source": "ABP Ananda"
-    },
-    {
-      "category": "news",
-      "lang": "bn",
-      "title": "মমতা-রাহুলদের ‘না’ বলে চার যুক্তি দিয়েছেন প্রধান বিচারপতি! সুপ্রিম কোর্ট অভিযান কি হবে? দিল্লিতে ফের বন্ধ মেট্রো স্টেশন - Anandabazar Patrika",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWTJWeE82dXA0ZHJua19tOEdobEVKcDEyWGR0dXhHVWtEVEJkVy1RcTNwT0tPVldsS1NPVnctYTVLeHhxaVZMcV9oY3hEVktMQndiVUppektPY190TlJxY1FkTlhMWS1kM0V4OTVyOWtQN3VGb0VSSGhDVmFMNWpnUnlvdXhlWjF1SEJwSFc5SHpjNkx3eXhpX0k2bFdtalQ0T3BDOThmaElBel81eDBLR3pINzNlUFc1T0VrMVFZckNJN3dlQzUtU09qWXpsR0dZWnZQbFp4NVNVSVA20gHiAUFVX3lxTFB5WmxhUnZWWHA5MmRGRFRhQVR1b3dMYjZmSS1sb2hnY2VTNTZDbEJLRGtuYTUtVjFKdHcxcWVOaldxdHpZeHlFaXZMVmowcHhSb0NOTGhoZ2ZuTFpBODVCSkRwRENrYTNSbE5pQlpvUlRfTTJDMl9KQlRmNk13ODJDMEo1ZVBueFd6Nm5QQjZDRnlRT0pVUzAxY241cnAtRjhzMFZIdkhrRUpQRWFhaFA4aWVZYzR6UlVscnNrUzNaRWlwV2J4QmhMTGpERXJVQnFGYmNKd2tGWFFoMVVJaGI3YVE?oc=5",
-      "published": "Mon, 12 Oct 2026 05:34:48 GMT",
-      "source": "Anandabazar Patrika"
-    },
-    {
-      "category": "cricket",
-      "lang": "bn",
-      "title": "ওয়েস্ট ইন্ডিজ়কে হারিয়ে সিরিজ়ে এগোলেও খুশি নন শ্রেয়স! দলের এক দুর্বলতা প্রকাশ করে দিলেন ভারত অধিনায়ক - Anandabazar Patrika",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMkRwenpxMXY2MWw4S2xJMXE0b1phdzdhVG9Nak9nRVJ1ZTd0eDNLMUhsWXhVNlRvR0NyamJvY1AtLXNyeG5lZlo1YlN0d0UwU09MdVJ6d0hJb1hSNmVYRTdvQnAzZE1VVzJnTlIzMXQyYmw2bmxNV3lmYmxwLVcwdHB1cHdRb2JHdVRpS2ZINGNHZmJwLVMwbmxGOUFnM3ZnWjlLZjJhb2lnN2tZM1pscEg2RF81RlhoVzNBazVQSVF5MkgxN0xDU3h6ZTl2Z0ozOEswNDQ1NktEUdIB3wFBVV95cUxPcHZQS3FsNEoyNEpDc1U0SkFmZTg0OFM0dVVYc2VhYTdobGNRQ29kU1d3M3dZS0ppNk5VLWFSTVRhc3h1ZTQ0ZFNac18xZ05yVjZYSXRTSF9Rd2VpZ0dFQV90azdJbVdVNGpyQVRoWVkzTmVNM1MwdHBEM0pZTmdLVHRqRE1sS0V5LUtPNDBpZElSQzB6dlhqLVVPaENiSTMta0U4TmJfcTdJMkFMaG82ZXljZ195VWxEVFhCdzUzbWthYXFEUm9qQ2RiREI0QzZWOVBDWEZNaW1aSmxxUnlv?oc=5",
-      "published": "Mon, 12 Oct 2026 03:55:39 GMT",
-      "source": "Anandabazar Patrika"
-    },
-    {
-      "category": "cricket",
-      "lang": "bn",
-      "title": "টেস্ট ক্রিকেট থেকে বিদায় নিয়ে কোহলির মনে তিক্ততা ছিল, দাবি জাফরের - Aajkaal",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWXRJbVFHNjA1QUw3cldONG9QLTRWUlpLazFyTF9mWlhpb3N3blZReFgyYmpjRDdKa1BiSlZzRHFRWWVBSWlmOHZYYnR5b2dRRlBabkZzMW9DTDNqaGFxSk0yMy1UYVdNam95enVESjhFcHAxc3ZLd3c2bXRGZVF4RTRkS0FlUTZITE0yQVZXTUl6LTR0LTRzd3VEcl9FUDBaR25CdGJzU3FZdG5pci1ZUlF5TE94dU4wZG9YcE90WkRTcF9Na2Ztc0lxOThGOGlBQ0dRYUNGVWt0dG1idndr?oc=5",
-      "published": "Mon, 12 Oct 2026 06:24:00 GMT",
-      "source": "Aajkaal"
-    },
-    {
-      "category": "cricket",
-      "lang": "bn",
-      "title": "Narendra Modi: এশিয়ান গেমসের পদকজয়ীদের সঙ্গে দেখা করবেন প্রধানমন্ত্রী মোদী, থাকবে ক্রিকেট দল? - TV9 Bangla",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTDc0Y1NNNVhUb0h5R0M2VV91ZVJGUG1zNUota3RyRF9GWmxybnItUm9fd0hqeFY4NURiRVMwajY4ZW1oTVJBU3lJSFphSDJHX2dRRUpxR2lpVllSMllYa0ZXdDk2SkNQU1lEck8xbkFVWUFiOFVOQVBRVi1nNUdZUWlJT2hTcVAwNkdBVXBXSWJsZ3BRYVFGT3dJbWY2Z3Y2RXJwMlNMQ2J6QTNSZGxLNNIBtgFBVV95cUxOTXdOZ2w3aUlfeVU3Q2pzSGpJWEQ5NGdwYjVyLUtQQ1J1SlAxc19yc1FCdUtZMUwwem9ldGxEa3BFMTg5SWNuVEx6LUlCMDhSRThwdUxudmtvT1dKR1BWZHgxcGxyakYyR3JBMXZnVVR0ZTJMOVVGZlhIMEVxYjJqMjRIeUNIZHpNMnVyTW82VkxBb21sUlh1dUFfbkNaQlNienBxVEdUclVVdDBGaG1rQmlwd1dkQQ?oc=5",
-      "published": "Mon, 12 Oct 2026 06:42:40 GMT",
-      "source": "TV9 Bangla"
-    },
-    {
-      "category": "cricket",
-      "lang": "bn",
-      "title": "টেল-এন্ডার হিসাবে বিরল নজির! ১৫ বছর পর শ্রীসন্থ-অশ্বিনদের সঙ্গে এক কাতারে প্রিন্স - Sangbad Pratidin",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRjh5eU5nU0pzUm9fWGd2WWtsSVYzZnBDeFlpM2N5MENxbWw2cjQ3a1d5QzB2YXctTDFrcWhfdUVRUk9uME9vYnI2cnFha3NneEdQOERFWW9SYnk3eDF6SDhIemdGYWl2Z0lCY1FPeWNYa0hpWFB6QkI3dmZ2MHN5ZEFySDFxNEZDTFQ3Zmh5WWNMRmNka2kzUExNVURFQjdaM1F4c0FBTTN2TFp2MnRHMjgtQnl0TFpwemdtcG5YVGxGRkRPZnI5azgyNHQ5cThJTU1WMmdWWkxTYnJuYlJiNlc1T3liUFJS0gHoAUFVX3lxTE1GOHl5TmdTSnNSb19YZ3ZZa2xJVjNmcEN4WWkzY3kwQ3FtbDZyNDdrV3lDMHZhdy1MMWtxaF91RVFST24wT29icjZycWFrc2d4R1A4REVZb1JieTd4MXpIOEh6Z0ZhaXZnSUJjUU95Y1hrSGlYUHpCQjd2ZnYwc3lkQXJIMXE0RkNMVDdmaHlZY0xGY2RraTNQTE1VREVCN1ozUXhzQUFNM3ZMWnYydEcyOC1CeXRMWnB6Z21wblhUbEZGRE9mcjlrODI0dDlxOElNTVYyZ1ZaTFNicm5iUmI2VzVPeWJQUlI?oc=5",
-      "published": "Mon, 12 Oct 2026 06:42:15 GMT",
+      "title": "অরা ইন্ডিয়া টুর-এ চমক! বছর দুয়েক বাদে ফের কলকাতায় কনসার্ট দিলজিৎ দোসাঞ্ঝের - Sangbad Pratidin",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSS0wSHlnc2FDX09ORzZ3dzhFV2dldzRicWFhcW1zbzZLWEp5T0ljTTJpZHM1RkZ4NVZFYVpZZlNtRjFMMkc1SFJERXdTdU04Zk13RWlyTHl2c2JPbXNMdnltTFhiOTc0SzM4ZDMtYmpqc0JpMzVmX0hRSDFSOGp4bndhWE9XMExic2NlS2o0bUN5bW83U20xc3ZvUktXenRGNlEwNjhNZy1laVFzaV9iRmxMdVgtd01zY2dod05nbzBva0Y4Wjltc2J4LVFnbm5lZXJEZNIB1AFBVV95cUxPSS0wSHlnc2FDX09ORzZ3dzhFV2dldzRicWFhcW1zbzZLWEp5T0ljTTJpZHM1RkZ4NVZFYVpZZlNtRjFMMkc1SFJERXdTdU04Zk13RWlyTHl2c2JPbXNMdnltTFhiOTc0SzM4ZDMtYmpqc0JpMzVmX0hRSDFSOGp4bndhWE9XMExic2NlS2o0bUN5bW83U20xc3ZvUktXenRGNlEwNjhNZy1laVFzaV9iRmxMdVgtd01zY2dod05nbzBva0Y4Wjltc2J4LVFnbm5lZXJEZA?oc=5",
+      "published": "Mon, 12 Oct 2026 10:48:00 GMT",
       "source": "Sangbad Pratidin"
     },
     {
-      "category": "cricket",
+      "category": "football",
       "lang": "bn",
-      "title": "১৫ বছর পর টেল-এন্ডার হিসেবে T20-তে বিরল নজির প্রিন্সের, স্পর্শ করলেন শ্রীসন্থ-অশ্বিনকে - Ei Samay",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcTh1dzNXVjk1S25wSlhZVXJjb1UyM3N2LUxacUtfUHlpSm01clJ5TWFrT2dLbVZCMWdOVlZpb1RLZWFaTkM3emR3M3JLdHNEbzZBMzhBUlBWMEpWcmh0XzRzRXhBQXZVTF9Td2xMQ0g3eTAxNjhxeWhLaVY3UFdlU1BtNWp3Vm1zWFp1d1IwdnZPQTl5OEJHd1ZfRW9NaFg3REtfRm1hY2JOVzJUMmZ2eXpIQU1ZN2F0T3l5M2ZOdU5rajRhejlfNEdaN2pzSmdpYWNsVDQ0QTHSAeYBQVVfeXFMT25tVEN4WEpyTmtHU09iYkl3dkdvcDNfZHVNdHhDMHFHQW1rd2xpZDZsazNHU2tlUGhqVTJRWGRpZXJCdmxvUDJqOHc1MENsMTdOdUxNM1ZpRHk0S1E3RkU0dUxabC1MSF9tMi1MNzB1TFpRQmZWaFdGVnlndVhTTkhhSmd1VG9IT2twQ1dHVXRGWV9fU0dlQTltNlNNT2VwUkt3N0pfdmpMUFZWN2lvdVJ2TzMxd3hkMVViUF9ROFdyd05MQWk4Z3ItaWp1Tkh0N0RCZ0Mzd2RRVEhHRzFXd0lQOTVIVnc?oc=5",
-      "published": "Mon, 12 Oct 2026 05:55:41 GMT",
-      "source": "Ei Samay"
-    },
-    {
-      "category": "cricket",
-      "lang": "bn",
-      "title": "IND vs WI: তৃতীয় টি-টোয়েন্টিতে ভারতের জয়ের ৫ নায়ক, এই ক্রিকেটাররাই বদলে দিলেন ম্যাচের রং - Indian Express Bengali",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUHgteTB4ZTU0NFZOeHFiSUJyVWs4QmFQVi1HRHlRQ1FQenhaYWVCRWJKN1FCS0xGclZFVmFGZ0MtWmFvMEd4bWh5VUMyaUVZOEtRalRRRk5iTWt1Q2xkandKYkVsTEF5OVBrODdYWTduZXh3UzJOV3B2cmFiUHdTNDhrVjkxMWsyNWFGMHNaYWxfS3dqVFlvaHFJdjhvVFdIYnfSAaIBQVVfeXFMUFB4LXkweGU1NDRWTnhxYklCclVrOEJhUFYtR0R5UUNRUHp4WmFlQkViSjdRQktMRnJWRVZhRmdDLVphbzBHeG1oeVVDMmlFWThLUWpUUUZOYk1rdUNsZGp3SmJFbExBeTlQazg3WFk3bmV4d1MyTldwdnJhYlB3UzQ4a1Y5MTFrMjVhRjBzWmFsX0t3alRZb2hxSXY4b1RXSGJ3?oc=5",
-      "published": "Sun, 11 Oct 2026 22:45:37 GMT",
-      "source": "Indian Express Bengali"
-    },
-    {
-      "category": "cricket",
-      "lang": "bn",
-      "title": "রঞ্জি চলাকালীন 'এ' দলের সফর! সূচিকে 'হাস্যকর' বলে বিসিসিআইকে ধুয়ে দিলেন বেঙ্গসরকার - TheWall",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT3dWemcwWVE4alFQR05BbzJOaUdhWDFNVkRRUURCRE9fMU04VkpaczNrRndKd3hNbWRUSDVTQkRDblpXcGxrb0kzdUxlUWxVM3JSQks1TkpYLUlJVWpyaWpUdkltRGRnRGYwTG4zTDNyZVpKdGN5bmg0cWNha2J4ZFc2S0hCb1dSMEZEdmNkdUJ6YmktMUhOUXZDS1FIV1RBQ25ZSG96N1ZQeU04YWxZNNIBsAFBVV95cUxNT3dWemcwWVE4alFQR05BbzJOaUdhWDFNVkRRUURCRE9fMU04VkpaczNrRndKd3hNbWRUSDVTQkRDblpXcGxrb0kzdUxlUWxVM3JSQks1TkpYLUlJVWpyaWpUdkltRGRnRGYwTG4zTDNyZVpKdGN5bmg0cWNha2J4ZFc2S0hCb1dSMEZEdmNkdUJ6YmktMUhOUXZDS1FIV1RBQ25ZSG96N1ZQeU04YWxZNA?oc=5",
-      "published": "Mon, 12 Oct 2026 06:20:27 GMT",
-      "source": "TheWall"
-    },
-    {
-      "category": "cricket",
-      "lang": "bn",
-      "title": "Abhishek Sharma: নির্মম হও, ভারতীয় দলকে বার্তা অভিষেকের, ব্যাট হাতে তাণ্ডব চালিয়ে ওয়েস্ট - ABP Ananda",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNb0tLWlNFQkZyQXVNOEtwQXlmR0RPRWVZVXZzVC1aUHUxVGt2TlhOM2pvemwxaGZWMlZkWXMzWTY5VTBfN3BzLWI0dFpmX1FjanFTS3RVZHAzMERBSDM2MG5ZMVhTOGVXWjVjTk1GTk15eXp4NTdTUlp5OXRqQmo4Ny1hWTJVbmQ4d21tdXZwQm1BOEltSHU5dzZBVHpKTFpGQ0pEZVp6dTRDaFhURFY0a1ZocWVGbHJIS0YtczYwaE5TVmllNVVoM1ZWTGJvVmhJdHA5ZXB6ZVlBSkdKcUJIM2dZQ0pub1MwTkHSAe8BQVVfeXFMT09wR1JaNjBJNVNMTVZzOVQ0M1hHUVRTWGdaWjl6cDZLYmZzX1JKZ29xd1p1M2NtUzM5T3E3Sk9CeDZIYzVNVi1NNzJaUU5OUC05TlkzVUIzUUJOc0doczZ2MnRaT09uOWVwd3ZZb2JTeHdVY1VtUERwX0ZnLWJLamhpcmFqWHhMWFVOb3NFMzlIZ3pCT2cwMGZSVWhmQmxMMFVXZnk1cWhkOHAtR0VURzl3MFlwd01jVEpxUFE4UWRZd1hNR3N0a1Q1T3pCUDV4cVlqNDdMX09mNXdOUlVOUG9jSHlGb1hqUTNGY2l2aUk?oc=5",
-      "published": "Mon, 12 Oct 2026 07:27:51 GMT",
-      "source": "ABP Ananda"
-    },
-    {
-      "category": "cricket",
-      "lang": "bn",
-      "title": "একের পর এক বিধ্বংসী ইনিংস অভিষেকের ব‍্যাটে! এক বদলেই সফল ভারতীয় ওপেনার, রহস্য ফাঁস কার্তিকের - Anandabazar Patrika",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVTB6NmpNbzFCMDAxU2lSYjF3NDV6SExqNzE1TUVSVmFOUEkyZFdYQy0ta1o5OGZ1ZW9PQjNHOUFpdnVEMjRWakxPUUlVVWpaenByVTZFX1N0bGxJWTBORndYYWtQS2hzYUw5OE96ZzVIVHp0ay1tZ2EyempLYVV3eVhWejZVeWpaRVlIVW1DLWk1WnFBRVdaNlJKc1NvQ3JzZkNud2dPOFVZaXFHeDJhdEdVdzZCZGhabl9Pa01ycGxTem44YW9PZURva0t1QdIB0wFBVV95cUxNbkZnSkZyTmxRTDVqSGw5cHdWN3JPdU9rWFRmZTNpVVl4cnlSaU81UUc1WVViQTF4N0VtaFZhWUFwM0VGUThmUFhRR3FUNnNhYUtOaFpLM211bnpOdW90ak1PbHVfZjZBUlRNX3gyT3ZrZVIwendNNkxGY19TRmxXLTVabkJEdzI4V29nSzYwdWlkMmZMSFFMNllnSXRJUlpUdG5mdEVNVGNfb2ZDRjZlOFhycm5ybmhid1UzbHEzeV8xRjFPYWhHaE1VSnZfamYyM084?oc=5",
-      "published": "Mon, 12 Oct 2026 04:27:16 GMT",
-      "source": "Anandabazar Patrika"
-    },
-    {
-      "category": "cricket",
-      "lang": "bn",
-      "title": "আত্মতুষ্টির জায়গা নেই, ক্যারিবিয়ানদের বিরুদ্ধে সিরিজে এগিয়ে গিয়েও সতর্ক শ্রেয়স - Sangbad Pratidin",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOeXVBb0w1akc2V1p1cmZPMU0yc21Xa2ZhdDdCc1VPU1A5S1JSbjNQT3VpeW5lX3Z3TU05UFlsX0dTQmRtQXl5eVhwcFllU0JETUZsTm8xVkZRWlBlMlQwQ2xqdlQwR3EtYUZpeGNMWmxlbTZwZm9TLVh4Vl9hZ2dyYTZyd0xaU0RqVzUyWmdwOFZWYllZTTJTX3pSdFFoNWhSZ282V2RKLWdRc2xJbi1rWXQwdUNMdElWWnZjZTN1dnlnR3d1XzRlYU9wRVl5V1QtWU9QY3RtUXNiZ3h5U3dYS0xR0gHqAUFVX3lxTE9CU1lCUEhGelFhcEZxZDJjTl9vVnEwVlRhS1FDOHRleWttRU8zdV93ZG8yejR1U3FqMF9Hc19oQXhIWE4xLTRpODUtcmVrX0dwRDM0VDRmbl9IVlgtM2xpRXprUmhtcU5yMW03UmgxcnJBdlJlYUdCRGh4MERDMzR3cUZJaWVVenROTHdpanY5VXZ6UEdwZFo3aEVta29NVlI3Rm5rZEhqQWJQNHJ1MlJfVkJBT0lhZ1g3dTBlTXhVRUJXSnAzVXhpMGZoWjRpYUo1Rlk5b2g4ck4wZkcxaFd3NGVuWUF5dGladw?oc=5",
-      "published": "Mon, 12 Oct 2026 03:50:36 GMT",
+      "title": "নারীশক্তির জয়! প্রথমবার টানা দুবার অনূর্ধ্ব-১৭ এশিয়ান কাপের মূলপর্বে ভারত - Sangbad Pratidin",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSDFrTzltVzVuRXJMaU8xZVFMR0JjeG5TWUZ0ZF9wZG1oLUZBQi1LUGJuZUl6U0hTNUs3NjhCdGVzMWxZTGJodlpNcGVra0NfOGFoeUI5NkF0eTYwQ0xQMndra2hTMEl2NldrR01wdHRQT25iWEp1dE90SFN2MWZmMHRsZkFxZjNpc2tVQXRMM2JWc1VIQ0NYSGZ5THJOMkhJZ3V2SHNwOXJqYnR4NXllc1JDZUVoZ1BoX3djS0tIYkNDSk1sRE9RNnVKONIBywFBVV95cUxPSDFrTzltVzVuRXJMaU8xZVFMR0JjeG5TWUZ0ZF9wZG1oLUZBQi1LUGJuZUl6U0hTNUs3NjhCdGVzMWxZTGJodlpNcGVra0NfOGFoeUI5NkF0eTYwQ0xQMndra2hTMEl2NldrR01wdHRQT25iWEp1dE90SFN2MWZmMHRsZkFxZjNpc2tVQXRMM2JWc1VIQ0NYSGZ5THJOMkhJZ3V2SHNwOXJqYnR4NXllc1JDZUVoZ1BoX3djS0tIYkNDSk1sRE9RNnVKOA?oc=5",
+      "published": "Mon, 12 Oct 2026 07:17:38 GMT",
       "source": "Sangbad Pratidin"
     },
     {
@@ -172,10 +100,10 @@
     {
       "category": "football",
       "lang": "bn",
-      "title": "প্রথম ভারতীয় দল হিসাবে ইতিহাস, টানা ২ এশিয়ান কাপের ছাড়পত্র অনূর্ধ্ব-১৭ মহিলা দলের - Sangbad Pratidin",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMlh0eHp6MkdzOTB1VjMwQlk3UjFNeE1VSU03dks1dHBEOUM2dHVtRy1ZQUlEN0JnZGlLVDZIdW1VSmlxX085cUNrUXF4QXgzU1lxZnFPTEc2dW4wQzl1WXVtc2VIQ01NQldUajNpNzI5czlybDk2eVl0TEtURkJKUWRKRkV1ZWtkdEZGdXQ4LWxubkNyNEZnSU1FS0tyZHZ1LXlSR01yclk1T3hNM0l4ZjcwdFNLV0czbzQ2LVAxZy1kaXhHNDJob29va0ltSW9WZmwtWUNtYlJlbVphR2gtWA?oc=5",
-      "published": "Mon, 12 Oct 2026 07:17:00 GMT",
-      "source": "Sangbad Pratidin"
+      "title": "Cristiano Ronaldo: কেন সাসপেন্ড করা হল রোনাল্ডোকে? আদৌ কি পর্তুগাল দলে আর ফিরতে পারবেন - ABP Ananda",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOR3ZpV1hjbzRuN0J0Nmg5dnJOX29aQUEtSEg0NHVkYWVLRDlrTjB4MENWdDhSeXV5ZUhPNFlPVjc5dS1FNERjekU1X2tXS1lNaE9wQkpyM25XeUY0YnUzOG9ZSVE2bUNBQVlsSFpBOEhwc0tmNEtISHFMLWxLQkh4bE96NHBEckgxTURBRk9ScjNUc3BGbGNnb2hlWFY0bG9rMVhfZkgyOVoyak40VWt5cFZhdmM0YjVNbUFPZ09sSHFramxSV0pjUWhUMF9HN3E0cmJJNE5USktWYXA0aHNnaHEtZVVkMm9DaF9MU2VGMkRiS2hWR19nTtIB_gFBVV95cUxPUTJwcVcyeF9qYVkwdWpBcmJUMjkzMlFGcDgxNnJzQUhLX2pUZ0VQTUZnaVY4TkR3dVBSVDZmWklpMF80UU05Rno1RkNLcVRCWXFOYWJ6TjYzemZocGlzMmt3MzFOS2dhMmcxdC1ibnMzdFU3b0stTlJiTWtKdmJIcXZyQmYxX0o3eHZRbnlmak1WTDBVODFLRkZVWDIyOUpVcXN2bnJJaGZBWVNwamhsZnFSVkhJd3ptYnlyajdtU2xXUDhZMGVGcjRZcVRpbGRXVzJfc3VuaFRHbWlIRDJMMjhKSFU0ak5XeVhlUkJxb2F2eWdFQlhVaFBjZDhpdw?oc=5",
+      "published": "Mon, 12 Oct 2026 12:59:32 GMT",
+      "source": "ABP Ananda"
     },
     {
       "category": "football",
@@ -188,34 +116,10 @@
     {
       "category": "football",
       "lang": "bn",
-      "title": "দু'বারের লিগ শিল্ডজয়ী মুম্বইকে হারিয়ে আত্মপ্রকাশে মুগ্ধ করল চার্চিল - ETV Bharat",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbUE5ZENNalM5azhIYld0YkdNYWZ0RzJfWms5d1ZHck9lVWF1UkFYbVJfMksxN2ctSlJOcE12bHBQd2NkcUVTUm9samgyenQ4WTNJdHU0RnJnUXA2WlVqd0gwNkVmWnlYb0dLUlI3OVdyckdlNGJLdWFHOEdweE1NY0xRSUtXaTBRRmRTRzJKOUg4aWstUmxOZ1F4WFdOV0VCb09fSjRxVmpvay1ZYXfSAbMBQVVfeXFMT3FBTUU3S0kzYS1Mdm80WUl1cGlVLWZCSlVFTDZjLWUtNEwwSUw0N0xoZjBuNWQ5elhRMDFIaVlYR3FXVUVfcDA5ZnlOMFhiTklfQVVuOEp3Y2dIZWtUVTdSTW9zRm0wZ3JQbWlEWWVxTWRLZ3VyNXE2em8xbTRZSHhXVm04N1d0TU4zYXkzemxEUDVpeTZaY3piY21zdWctM0QyQWdRSVU2QVk4X21oN1JuSkk?oc=5",
+      "title": "দু'বারের লিগ শিল্ডজয়ী মুম্বইকে হারিয়ে আত্মপ্রকাশে মুগ্ধ করল চার্চিল - ETV Bharat",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbUE5ZENNalM5azhIYld0YkdNYWZ0RzJfWms5d1ZHck9lVWF1UkFYbVJfMksxN2ctSlJOcE12bHBQd2NkcUVTUm9samgyenQ4WTNJdHU0RnJnUXA2WlVqd0gwNkVmWnlYb0dLUlI3OVdyckdlNGJLdWFHOEdweE1NY0xRSUtXaTBRRmRTRzJKOUg4aWstUmxOZ1F4WFdOV0VCb09fSjRxVmpvay1ZYXc?oc=5",
       "published": "Mon, 12 Oct 2026 04:35:17 GMT",
       "source": "ETV Bharat"
-    },
-    {
-      "category": "football",
-      "lang": "bn",
-      "title": "লজ্জা-হতাশা! ঘরের মাঠে ভারতকে ৮ গোলের মালা পরাল রাশিয়া, কোন পথে চলছে দেশের ফুটবল? - Sangbad Pratidin",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM1g0dFN3TlVSWUt2T090a1dCQmJ6WFR1b3N4VFlsNVNSREVKOWtjcHBTOS11d3FvX2xGbmJuUTVtNEVCZmxSVzdNSlpNbllKeVZ5UUJkMHlPREkySnp1SlRoSzdDUzVQZU0waDUxLWpFZ19zdzRjazA2WDJxTFpmcnNfN2s1Rnd3bnlaTE1EcVc5NUFqYWlIU0FfYmN6aFc2WEFzakYtUFpHc0tC0gG0AUFVX3lxTE1YZlhLV2FiSTlIOGNYczFFdDRXejd1bHNPRFpXY3Q4WEFMbUdSLWhmOU5IMDRHRWE5RUxQS1daVmlFdTE5N0s4YzdtMlNDV3R3WG1KQ0xpejc1U18wU2pmMm85QWV6MTFxQlRENEZCSURtUVIzXzUtZjkzN3FySlRuODNwQXhtd2pkUHpVd21mNzFvU3loWmlldnJLc1NSWUlyeFp2QkJhTUNoLUEyOU9GMmMxOA?oc=5",
-      "published": "Sun, 11 Oct 2026 14:36:05 GMT",
-      "source": "Sangbad Pratidin"
-    },
-    {
-      "category": "football",
-      "lang": "bn",
-      "title": "Ranji Trophy: রঞ্জি ট্রফির প্রথম দিনেই বিতর্ক, এক বলও খেলা না হয়েই নির্ধারিত হয়ে গেল ম্যাচের - ABP Ananda",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRVItZk91YktjbTIyOFZGbFRhUXpmWlI1UktYM0tseFV4Q0gyWjJtNnVzVlV2TUtYVGlkZkFWMUFUTzBFbEFQMnBTeEVPNC1XUjdoWlhZSVYyb3BPQlJsaktKNG1MX2FUaVRoclpBODJxVE5JYTlVLVJyYmdxcHB1WDdkenVfV0lOWW1qX3JDYUp0TGtDU2k3dWd6anlVWVBPV0MyX1ZSVl9iMGJDdUFMSVlRXzhYTnhQVDJyOUFWMFpiOF9WR2VfbEdWeXFGTkYyckE4NlR30gHbAUFVX3lxTFA5SHp1OU0yTmpVU05XRWY5WWlUQ2cwb1VHejVvRXZpUGlMdUhpV3hQeGt6WElpSWN5R0s0bjFpbUpFdFhGOXVXOERHWlNhcmU1bDdKaXFmTS02Y3BqSmpMY0Nmd2V5bHM4N1ZOUU9SN1BtMDVULXdNY1lFc0VoSW9YOWNkaDROS1BiN01KMnU5dENFUVZHMjlpT2UtMmM5QmNPQTQ1TnRwSG9ZcU8tdW5BNktLQnFhU3RVYTVNdjIzeUE1Tm1ydnJjb1JCQ18wMlFVQ1g1a21DeUlaNA?oc=5",
-      "published": "Sun, 11 Oct 2026 15:14:39 GMT",
-      "source": "ABP Ananda"
-    },
-    {
-      "category": "football",
-      "lang": "bn",
-      "title": "আমেরিকা নয়, আর্জেন্টিনার ক্লাবে শেষ বার খেলেই কি অবসর নেবেন মেসি? ইন্টার মায়ামির কোচের কথায় বড় ইঙ্গিত - Anandabazar Patrika",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTUR3S0UwRUVpdExhY0ZacHgyeFdkMTB4QmljNVJZRGNxRnZMRWN2VnlRM2RCQ2NuUFl3b19LdFFHS2wxZDdxWkJqbFBXck5OVHViMF9WYjBsamlBZXRLeW5JYUd6MlZtZXVDWXU1eS1GQzFvT3Z0RUU5QU5uQ0Y3ZUljNng0RHAxbll2enpEV0JRb2o1WmFCRUtKQ1ozQnczaXVvYnNpbEVJZFd1RWtBanZGZGdXZkpJQm5DLTJwWW44ME1Nb0xDdmVIcGJvM0drZ1BUU3hsVUJJOWRocEtQY2pSX1JYcVZfOW5v0gHwAUFVX3lxTE1KX3JYbk1tRlZneE40ZTVhUmJONjF1amV3anNaTzc5eklPeUEyN1ZKX1dOTzZVempMZUJhb0NQOWdNRVVQUE96VHBycDRXdzVyWjZ0ckI3azhvVXBLT0hOTVZpeXNwMkhuSlRkZ3FkUm5NZm5QY3hRa3Q0V0ZidTR6U2hhY0VnZnpnR2hDLTlFaTAtQXhjaFl5WmlxR0hwOFpIclBld2hyVTAyc0duc1JOYjc3Y0lRUEp4akx4Tldjc2lsQUdPQ2FNU0tHXzExenRxOURHZmFoWTBtRGRRMEd5d3FlU1FBTFZBazVTZTNtbw?oc=5",
-      "published": "Sun, 11 Oct 2026 16:42:17 GMT",
-      "source": "Anandabazar Patrika"
     },
     {
       "category": "football",
@@ -228,26 +132,42 @@
     {
       "category": "football",
       "lang": "bn",
-      "title": "শিল্ড জয় অতীত, আইএসএলের শুরুতে পাহাড় জয়ের লক্ষ্যে শহর ছাড়ল বাগান - ETV Bharat",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeTVXd1RvT0JKaGV1UEJkOEZ3bkVmZG4yU2M1NG9iS1RaVmtyVTV3ZjlXSEVwUFUtQ0dlTEE0RU03b3BBRTQ3S3RjdzJta19IeXpWMVI3Z3ZocnYzSXFxRzM1VEtiWmVraktXS3NvRnpIUGxSbVRCbjVvV1dkaXVIVzFyZU0wcjM0QXBWNXI1V1RLOHZIQ3FoWHlrNUYwem1ja2NRanNYNmNnRmdZU043Q1Fza2t0ckcya2pvcnpsM3h0MWpGLUHSAcYBQVVfeXFMTXk1V3dUb09CSmhldVBCZDhGd25FZmRuMlNjNTRvYktUWlZrclU1d2Y5V0hFcFBVLUNHZUxBNEVNN29wQUU0N0t0Y3cybWtfSHl6VjFSN2d2aHJ2M0lxcUczNVRLYlpla2pLV0tzb0Z6SFBsUm1UQm41b1dXZGl1SFcxcmVNMHIzNEFwVjVyNVdUSzh2SENxaFh5azVGMHptY2tjUWpzWDZjZ0ZnWVNON0NRc2trdHJHMmtqb3J6bDN4dDFqRi1B?oc=5",
-      "published": "Sun, 11 Oct 2026 09:01:13 GMT",
-      "source": "ETV Bharat"
+      "title": "২০২৭ সালের এএফসি অনূর্ধ্ব-১৭ মহিলা চ্যাম্পিয়নশিপের জন্য দক্ষিণ-পূর্ব এশিয়া থেকে কতটি দল যোগ্যতা অর্জন করবে? - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdnJfRUwxX2lkUlY1Z3VsakItSGxfNjhDb0tVS3hrVklVamE2ZjVENHpsa1NOa0xwR0U4SVRVUWpLcXNzRWVSSTI1UFBIMjRtVGhQVENrOUJXam9aeVhrX0hQdC1MVlBZMlZYdjFQN1RIMGtyeERPeFM1QjlfazA3SzhzMDh3MlZVLURlT0Z6WnZLQ2hydlp3ZzF4NmU?oc=5",
+      "published": "Mon, 12 Oct 2026 11:22:57 GMT",
+      "source": "Vietnam.vn"
     },
     {
       "category": "football",
       "lang": "bn",
-      "title": "চারের পর ৮ গোল, রাশিয়ার সামনে আত্মসমর্পণ ভারতের - Ei Samay",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd1BuNnYxam94eGVrak5nVUJlOENQUHNlUE1FaVNDV2JtdmlrWUI3U09DU0YyS0pId0VZWU5sNzZTS0hCaWFjTkZ1Nl9KX3V3c05KQXh4OGRLcUtQZHI4SjlnTERzODdBUEt3Uy1pQUhRdDZITDIzTEVKSFBmUmRlbjBuc2cxRWxfV3V1N2hobTBNYTVFU0lsQ2ZZLTZvWDMtUFptaWxOdVk1dnRBMlhEdmQ4bU5DYXFWcE40QTFkNEFoUdIBzwFBVV95cUxQbVFRSnIzXzd2QTBGMDlKakxudjB4bFdKUXB6WUhtNHRFZDNwSlJFM3NFYWhCOFROeUJYU3ZZSzMxOHZrNXV1TjhwY2FCZ1lsT0kyemg5VzViT1Mya1JpOFViMWNvQ1J1TDR2bnc1eGxaM2pjd1lTLVNWeTYwRzN4NzRvdW42eF9lWERDeGxtRUFWOUszQjEyWmd6UlFGZUVuSUlWTlhMbFJadHpIdzNuNlFNUF9DUnJkeHpQWTRnc1RTVFNEZHAzZzlDOFpDd2M?oc=5",
-      "published": "Sun, 11 Oct 2026 15:56:04 GMT",
-      "source": "Ei Samay"
+      "title": "আমেরিকা নয়, আর্জেন্টিনার ক্লাবে শেষ বার খেলেই কি অবসর নেবেন মেসি? ইন্টার মায়ামির কোচের কথায় বড় ইঙ্গিত - Anandabazar Patrika",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTUR3S0UwRUVpdExhY0ZacHgyeFdkMTB4QmljNVJZRGNxRnZMRWN2VnlRM2RCQ2NuUFl3b19LdFFHS2wxZDdxWkJqbFBXck5OVHViMF9WYjBsamlBZXRLeW5JYUd6MlZtZXVDWXU1eS1GQzFvT3Z0RUU5QU5uQ0Y3ZUljNng0RHAxbll2enpEV0JRb2o1WmFCRUtKQ1ozQnczaXVvYnNpbEVJZFd1RWtBanZGZGdXZkpJQm5DLTJwWW44ME1Nb0xDdmVIcGJvM0drZ1BUU3hsVUJJOWRocEtQY2pSX1JYcVZfOW5v0gHwAUFVX3lxTE1KX3JYbk1tRlZneE40ZTVhUmJONjF1amV3anNaTzc5eklPeUEyN1ZKX1dOTzZVempMZUJhb0NQOWdNRVVQUE96VHBycDRXdzVyWjZ0ckI3azhvVXBLT0hOTVZpeXNwMkhuSlRkZ3FkUm5NZm5QY3hRa3Q0V0ZidTR6U2hhY0VnZnpnR2hDLTlFaTAtQXhjaFl5WmlxR0hwOFpIclBld2hyVTAyc0duc1JOYjc3Y0lRUEp4akx4Tldjc2lsQUdPQ2FNU0tHXzExenRxOURHZmFoWTBtRGRRMEd5d3FlU1FBTFZBazVTZTNtbw?oc=5",
+      "published": "Sun, 11 Oct 2026 16:42:17 GMT",
+      "source": "Anandabazar Patrika"
+    },
+    {
+      "category": "football",
+      "lang": "bn",
+      "title": "লজ্জা-হতাশা! ঘরের মাঠে ভারতকে ৮ গোলের মালা পরাল রাশিয়া, কোন পথে চলছে দেশের ফুটবল? - Sangbad Pratidin",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM1g0dFN3TlVSWUt2T090a1dCQmJ6WFR1b3N4VFlsNVNSREVKOWtjcHBTOS11d3FvX2xGbmJuUTVtNEVCZmxSVzdNSlpNbllKeVZ5UUJkMHlPREkySnp1SlRoSzdDUzVQZU0waDUxLWpFZ19zdzRjazA2WDJxTFpmcnNfN2s1Rnd3bnlaTE1EcVc5NUFqYWlIU0FfYmN6aFc2WEFzakYtUFpHc0tC0gG0AUFVX3lxTE1YZlhLV2FiSTlIOGNYczFFdDRXejd1bHNPRFpXY3Q4WEFMbUdSLWhmOU5IMDRHRWE5RUxQS1daVmlFdTE5N0s4YzdtMlNDV3R3WG1KQ0xpejc1U18wU2pmMm85QWV6MTFxQlRENEZCSURtUVIzXzUtZjkzN3FySlRuODNwQXhtd2pkUHpVd21mNzFvU3loWmlldnJLc1NSWUlyeFp2QkJhTUNoLUEyOU9GMmMxOA?oc=5",
+      "published": "Sun, 11 Oct 2026 14:36:05 GMT",
+      "source": "Sangbad Pratidin"
+    },
+    {
+      "category": "football",
+      "lang": "bn",
+      "title": "এনামুলের ঘূর্ণিতে ভারতকে হারিয়ে বাংলাদেশের রুদ্ধশ্বাস জয় - Dhaka News 24",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQM3hzakxSTlNJX1U0WkkwQk5YVm5oVWJDYk01R0MzcDI0dFhLWHRWQm9ka05uVURLODVtY2t0azhES3BMX2tPamdhdXFDay1YMFFWaDktWEFzQ2xxV09UdXhHV21NdWcwYVIzcGotMkJyX1dZek9tVDJYN1JDMzNYQTVQOGxUV2R3cDBpUmp6MnpHeVZ1T2p4dDhjSUNzM0JUcm1IdmctNnlBclVvQ1hid3A4LUI1Q2s0WkFLV2RHVGVuOUVHR2hLYm9SdWtKU2pEVy1aemMyZGFKNFBGRjM0Y05ob1phY3FCNmFybEFGcENiQXB0enVIYmZyQzN1cXBSazNnWkZPU3NlNzMzZy1zYXB3VVB2ZXFhU3VpTGxUUExQNUlKT2k4bkJDZ0c2VFlVWUY0WlY2TkJ1cHkzY0IwNDJRUQ?oc=5",
+      "published": "Mon, 12 Oct 2026 09:36:14 GMT",
+      "source": "Dhaka News 24"
     },
     {
       "category": "news",
       "lang": "en",
-      "title": "Rahul Gandhi: India bloc leaders to march to Supreme Court as protests continue - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JT2pSOXVEWFgtZ09iVkNTNHllM2FKc0tQVGZvUVdQb01McFdFWUh6NGdoZ25IUGFPb0hpRmM0ZS1YLTR1eEM5eEU4WU4yOHgyUXhFek9SSHprSHc?oc=5",
-      "published": "Mon, 12 Oct 2026 06:42:35 GMT",
-      "source": "BBC"
+      "title": "India news: Opposition parties march to Supreme Court - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTnYxY2VsMmVEMDk2bG00SEZld3h1MmxGdnB4SnlvSmJDYWZ3aXlLa3UyWHZNVWFtVFAzUjNXc01raXZTWXU2aHlyWm16SF9UNGRsY1BiX1FxdEpaR0trWHJCNVZyVERFQjBzTEpJWlNTZlU1ekp2WTdaQ1NkbXdHdy1jX1U3NS1lVVl6UXI4cGw2UQ?oc=5",
+      "published": "Mon, 12 Oct 2026 11:26:15 GMT",
+      "source": "DW.com"
     },
     {
       "category": "news",
@@ -260,15 +180,7 @@
     {
       "category": "news",
       "lang": "en",
-      "title": "Poorest 10% In Rich Countries Earn More Than India's Richest 10%: World Bank - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQN3J5NlZtWGtjVHh3a3FGbFh3NFZxel9GbUZleUtXdnpIZkVxY3Z3ME5IVUE0Nkd1NmxqbWlfak50MjVrTGFvUTdsRVJnT3FteVN4NzRJMndDYk1uYTREc3hvM3JGRmVraENoZ0t5RlhsU3FleUtmMVZ4cnA4OGFzcEdNSXVqNVNuT3lIaWFKRGFQSHA3RmlxTk1Yb3hWMzB0ZVBmMEZIdHpjd3EzS2IwVm8xcFRTMVFlYWfSAcIBQVVfeXFMT19VUFZ5aUFOSU4wLTZyV2tRdFpxbzBnUDkxcENuTDVJcC1iMFBJbVI4U00yQ3huUWVyOHdSWG1qMmVQdURldkpBRHBYa1RDZzA4bkhfMGhXMTVkZ3pqV3RCcU1YUUZMQ0htckVyQmMyb1hJdmhnMEVETXRZTWkwalBWaTdaUzlPallPV2RlWU02MnRVb1RWcDgwclBrdV9YS2RZMTlheDktdzNLRUZpeXd5cUhhMWRKVGVPcEhRaEJPZFE?oc=5",
-      "published": "Mon, 12 Oct 2026 03:15:45 GMT",
-      "source": "NDTV"
-    },
-    {
-      "category": "news",
-      "lang": "en",
-      "title": "Delhi shuts metro stations, restricts traffic ahead of new protest against election chief - Reuters",
+      "title": "India opposition parties march to Supreme Court against election chief - Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaHdUQ01EMUVqOGlYVmhEVVJCemJoMjFKX0twdDRaS2VLVmpSbUZqWTlwWkVIcGI3NEdRclB2eWNfejhjbjQ2RHBOc1M1NHkxc2Y3RjYxTTJyby1rSkp1UFd2UVpBUGFnaGdzVUJiRGJDQ3FqcTJwdDd1MUcwdU12NFU2ckJrNzk1LXlhSXpCZHVfcUFwcGYxakZDRjZobXRvTnI4QWZIYnhqWm1TaWRLWUhzSzZkRlhSY0o3cTFaNHBKUk9nUVE?oc=5",
       "published": "Mon, 12 Oct 2026 05:03:00 GMT",
       "source": "Reuters"
@@ -284,122 +196,50 @@
     {
       "category": "news",
       "lang": "en",
-      "title": "Latest Hockey News and Updates - Hockey India",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3UtSlViQjhwYnV3OUFzSW1nZzJRb1FOOU15b3ViX2NadlhMU3FSS3VmRHl0aVZkY3AxV3M2QmRobW8wbjVZLS1hZ2lnSk1xcmQxUHJ0d29HQ2lqdExvcF8tckVDVDAySWhJMEpEaHktSVd4NEVONExfd1gxVTFmbUtVYmtldDR3RlJ2bGE3ZTUxWnlGbG1yNEY2Uzg1RDJZNnhqUWF0eFdhYWZFSTBvT0IwbXk4Zw?oc=5",
-      "published": "Mon, 12 Oct 2026 06:38:35 GMT",
-      "source": "Hockey India"
+      "title": "\"Law And Order Not My Domain\": Chief Justice On Protests Against Poll Body - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNQjluLWx1eXM0RWZIRE9OOWJERkVuenRqNVNfeGVUQ0V6Sm95QnlGQWtTT1FrdGJ4bEtqSXdMUEJ5TFVUdnJfb0ZIRVhqODF6ZFpKMFVYWV9SV1hnNk5UVTNkRFBlX2thQldjUFk3YWtHaHBZSk5uQklHR0szU0dhX2htOVV6UkgyMi1nOVJKV0JFeDVMX3RnalltZ2NaSF9BRDVBRTFoS21kNHRneDFIcDRxLVEzZHp0VUlwa2FyZ25JSk85aWpEUTZpYTBzN093U2tyM21zZ1dmdmxLR1U2QWtpOXdPUXlhNllF0gHzAUFVX3lxTE9FQnllMlFORXY1RWNSeXNiOUZOQlBTbFBxY1lZU1hMc0dCcjNtRVdXZDZSQk5vZEpUZzlKNGFnMDZoM3NrekNkN0JnWVU1cldaWFpBSUpZMFpRQ1RPeTJLcTk1cEtvR0VyRWdwWWZNR29wa2tlWEVXb3ZoS0UzOHAzeVY1ZTF4MFVtZ3FfaEU4Mm1HQTB6bThCSUpoYzJmZlRUU2xhVWJaZWNPeVpBam51RENmTEpWODhLWlRuRHpFUzRDekF6bFdWRzA5M2hPT3FkR1hXRi1OdlA3T3NpY1RQRHdoNngtWFA4d3lJSURmVTEyMA?oc=5",
+      "published": "Mon, 12 Oct 2026 09:31:01 GMT",
+      "source": "NDTV"
     },
     {
       "category": "news",
       "lang": "en",
-      "title": "Indian Army and FCI sign MoU in New Delhi - News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90R1RSMTdDUzljSWJtNWZkb0N5bU9WOFZQUkpaWmVDZjF3ZFc1VXFHelY5NWtJN0NCQ1hvNENBREVpVzRkTy14N3BPcjlJNVJhOWNFYTdzOTQ4YmlqNGlKam1nazZNR1VtVUZ6SU51MElia2JnRGc?oc=5",
-      "published": "Mon, 12 Oct 2026 07:52:35 GMT",
-      "source": "News On AIR"
-    },
-    {
-      "category": "news",
-      "lang": "en",
-      "title": "Delhi anti-CEC protests and INDIA bloc march: Traffic diversions and advisories - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcWZvVVI2ek44ZEpRLWh3SkxHV1VrRXQwblBvSkhIaEk2cUlkQWhnTzRzQm15VzJ2N2FzcVl2M1JxdTlULW1jVUNTMDdUSGtpNTZxNDlOTTZIX3EtY2xwV0JFU3pXSFBIbjRiWW5FaTdDNk5yYjNBWWhVSXljRG1iY0MtMkdySWUwTFBkSERIWGphc1VvSk95ZE02clE1eDlWU0xUTWszcTJhbTBtTWNzSjVidGRaZ2RmS2VVOWI0Ukt5dzNFbnhrUmxXSDB5ZXdCMnNvb3RFMXdOd3lTdmfSAeQBQVVfeXFMTmFIZGNEcWpFa3dUN2xRQmxLMnVjRFhQRk12MmVjZVZpdEdQYUJ4YlVPX2NKeTAxSEZWT2JHUFoyZzFYUTJVRWtCdWg5SUZrSGR3VXhMcHl4U0NvTzFkVGl3MVBOSngtMHlFdElPSHJqamo0bS10d05zaTQtSVpISm1qak1EcjI1MlYwOGJSV3dpM2pUS3cyTGRVLVZTMkpvc2FCSURJVmNDWEM4S2hZblR4Vmp4ZTFySXRLNVNHZlNwNWpXaWEzVXZMRmE0RVdrVEwwb1dicmZBLU9Bd2tVaTdoZnRQ?oc=5",
-      "published": "Mon, 12 Oct 2026 02:20:27 GMT",
+      "title": "March to Supreme Court: Who is attending, why CJI declined, what Delhi curbs look like on day 3 - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVRSN2FPTENkcEg1NTdrNml0alpwTUtqTzlJYldackx5emtONXExYmJDRWJkaTBjYmxtQl9SWVNUNzZGLTNEcjBUaUpKWVdVQWhvTjk0RHNlWktqcnJLaWxMTzBNRkdvZHB2cUE2YVFHeDZpR0RVTG1YSE5ST1R4dC1aT1ZiVHpDX2RhNlpORG9NUVhxRVVkbldhdmVVckJHdmxkN20tR1JqV2l3U09mYms3SVNhRmRRVjRkcDVHdHY2RzZsRUlQNlE0c0d1MHZQ0gHXAUFVX3lxTE1BMzJ4bFVXTXktZW0wckUydmRyZzJHRzI4YWlJalRVWE04andISUNIMHNoRU5Xb0JMUW5pc3FOUk1IeUI1em8wQ29xcW9ya3ZISjV0TWJVMFZIRHBYdGV3bm9zeTVteWlXSGc1QzZTd0N2YTRvSlhpWUljRWNXVG5temZjWHFBQ0dkemlFVWR6QjVOWEc4eDZ0ZzA0U0E3QzRxYVlsMGdCWXh3WUFpX05nYWowcHd4N0xFSTk3MUp5NlBEdXRkTnBSc01wNWVJZ1JHdnVubEVB?oc=5",
+      "published": "Mon, 12 Oct 2026 06:11:37 GMT",
       "source": "The Hindu"
     },
     {
       "category": "news",
       "lang": "en",
-      "title": "How India has sought to defend the slumping rupee - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZFF2VFI4UGZEY2Q5dnVYMlRZZFU0SHVzbW5aT3MxMF9JNjhiNWtQYllxamg4MVl4UkNQenZ4RXY2NkZwVDJlUkltUzIta0xvRzE5RTFQdlZFTlU3YnVPM0lpOEtZQXJ2dlpoX2dwcmNJVUp4WFlhYVgwd3RXVlBYSTZOSmUzRWl4YU1aNy02UWtlNlZETll0R2txRmNOSl9Uc3ZqWk1PaEwzSmVwRTFaLVEyd3ZYM1FoVFE?oc=5",
-      "published": "Mon, 12 Oct 2026 00:56:43 GMT",
-      "source": "Reuters"
+      "title": "'Rahul Gandhi vs Election Commission': Supreme Court Hearing Likely Tomorrow - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWWZGYURlMTlvcGgtVEFxMVhTaVpJbjBuSjFSM1NmN1JSWVcyRUdyazRlMENjOERhaVJFZjRMUVpoNTlYN0xPWmR6SzdGcDdPQzBTNktNNUVvV3ZGcFhJamlfcnhEdVJucTRELUZiajFZVjhYaFdlZkZKWjF1WU8wbVk3bFM1R3hJTmZWSDI5bVVZNjJqeUdhQmg5cC00UVVvOVkzSU83V3hOME10LXotdkpuc9IBuwFBVV95cUxQaTVtTXBkd3U4NGlMcncybTVmWFFZeHNxc0FLUG1LY0VENzdwWE5QZ2J4SVgwbVloQVZ1RzBuRlpoTXd3T3ZsNzVfZnppckRZUnFSdHV2Uk9zamVKRHVKVDVOdGdKcVpUV0lqdUtXZzk5THFZclNfeFBGVEVyay1LZWJNYzlpbUVmVldYQ09FbGhRd3BBVnZjeXNlZDFBZFZ2U01NZnBreWpjdF92RmlIdjlRZS0yY0JWZjVJ?oc=5",
+      "published": "Mon, 12 Oct 2026 12:31:56 GMT",
+      "source": "NDTV"
     },
     {
       "category": "news",
       "lang": "en",
-      "title": "India’s crackdown on youth protesters: What next? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbm04TDl6NDZMTmlWZ3R4ZHQyZVZvby1nRFR4dzh1cmhoMkJVSzFxdFBUQlJnZ282VDBFLVNqTE1MN0IwS0F1V3pxblNGUXhkUXdYNHN5aXFiMnZNREJBYmRoVGVyM3hOTDF1NEVweGhKTlRod29OU3dMWXk5X1pyRjdmeGZtRjNwT041V2ZQUHk5d9IBlwFBVV95cUxPV21pSndoMmdnNXBsQmdmdjhIUVNQekthSXgyWHRZS3QtTTRHSS11ZWx0dEp3Mk5QREQtcUJDX1JQUmRKNUNfWkNYQUpZWXZjQWNKWU8xeUo4MDFCSDJQeElnT0YzYVNSU2NyR25OYXZlS2FJY2JpVjlWVGxFbXNjMUpFS2N5TXJJeGsxeldYeENxN1hrMVM4?oc=5",
-      "published": "Sun, 11 Oct 2026 13:39:51 GMT",
-      "source": "Al Jazeera"
+      "title": "20,000 Paramilitary Personnel To Stay Put In Delhi For A Month Amid Protests: Sources - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMHE5cV9OU2dKand0dE13SThKMWpyYnJKWWZUMVI5WkRldzUxNHhlN0tnTlh1M2VfUldrRFU5UGZGazNFV19xZUh5S2Y0RDNtQ28xWUh6bGs1MURydko1aHF5VmY4VlFrNG5Ibkd6M04xbWthbkF5aW5wc3VhM3J0YTFGdmlNWnFRZDc4T3I3VE5Zem5VMnhPWW1pWF9EQkIzWnBZLThvSDNyNy1kRlJObDdWekVGTFdu0gHAAUFVX3lxTFA4dGdWazJLOXpKajBwVWprQkpVaWpEN0VXQjFvVFVhRml2bUhoNW1na1pXTmhfMnI5c1RGT2VOc1pGdmxIZEJDZzlnY25XYU5valF6QW1EREJvQTBSbnhtdDRXNWgzWW9zUnd5ZWxqQm9QOEhrN2pCdm81REp0RGl5XzFWQ3VSVmZqNVJGSjFlZkxBcnJhTFNMZ3VzamU1WnAtczdQTWVlRFdNRWFOWnYtQWRDbTgxM3JESE1CVzFzSw?oc=5",
+      "published": "Mon, 12 Oct 2026 12:00:56 GMT",
+      "source": "NDTV"
     },
     {
-      "category": "cricket",
+      "category": "news",
       "lang": "en",
-      "title": "West Indies Women in India ODI Series, 2016/17 - India Women Cricket Team Records & Stats - Cricinfo",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUl9XTFlVa2xuTjREdUNYLTlpbkwtQ2tzRkRLMV9vZHlmbTVhemhKc1FfeUcwWGtpMTN6Q2FrX0czZ0VYUEdGX0pqQ1NKX3VzOW1LUF9JbXU0MmwyM0cydXY0a3F5ck1vYUo5YXF6R2s4ZnNPVGVpZ0FleUVvQ3pER19JeFVhaDZRd2R1Yl9GVzBOVTdOSlo3STduZ0xFS2ZESVVHWTZ3QWR2UEpnWnRJdA?oc=5",
-      "published": "Mon, 12 Oct 2026 01:09:19 GMT",
-      "source": "Cricinfo"
+      "title": "\"Why A Hindi Name?\": DMK Takes On Congress Over Rahul Gandhi's \"Chhatron Ka Goonj\" - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVzNnOS1INGVONXJtMDZBTkdOZXJlcmR2R1hpdlBZR2o2RGRsQW91dGM5Q2djQU5yZ21IWXFULXlVclhBcEctZUFSVE8wbjNTMjE1NjBRcWNoWlctMVk5TVBXSnZKYVBDQ3Bjamc3OVdHc3ZSank3MHJhdlBTZzl4WGRfTVBQX19RZEVuWGYzbVVrOHo2WlV2NHdpcXQxNXVmMTZmbjVja2xQd2VxM08wblYxM3ZjQmvSAb8BQVVfeXFMTzdPUUpVRno3NUhUdUI2X2s1X0lFWUtPY29CUVkzSHYzdXk4Q0VnVFVTOTF4Z19MVld1aGpmdV96ZWJpRVZTWjVnREYtMlo0djljRnVoVFAzSTNzR0NwaEVxSUNYTFIzSzAzVVItZ2ZUMndkVW5MN05SQTlCUElyUV8yc0NxdTYzcFVMUVA0RlBqYmVCX1ZYREQzZm9sdDRSZ2V3Qno5ckdBeDloTC1ST1RLZXZYY0JuOFVsU3ZCVkU?oc=5",
+      "published": "Mon, 12 Oct 2026 11:05:33 GMT",
+      "source": "NDTV"
     },
     {
-      "category": "cricket",
+      "category": "news",
       "lang": "en",
-      "title": "Watching videos of Kohli, hitting the deck: how Australia A conquered India - Cricinfo",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRkdrbU1wQVFBdVVwZzNxRHNFMUNVcXpOTHJJd1lJcW9rVldoT0F1emVFWVVhWTZ4d2tQQlpJRzlqdmRZRDlmUUhya3VPMkRhdmFMVGhyOTVPUHp2a3dDcHdFV0NhRmNzaEZncFVHNDVtZWhmNkJKLVk1bTY5M1pEeGZZQ3JCUmM0WUc3aE5NdlQ1b0hGR3BHdVBBUTBNTzI0SWRBTzR0V2tMTDVpd1F6SDd30gHDAUFVX3lxTE5GTjBHZDNNc25ack9UZFNIUjZzaFRfVmtkSkl4MFdFdXdtM2RJZml2eDBxTUxqR1Ztb2FNeWxDYTRpSmt6Z3dOaEJvOEw4VHBMYmtFRGZQS05zV0NjT3VJNkZIam5ZWTBPaTl4SVBlNlJBOG5saGhwTmZLanlNU08zZFM5Y1VTSW1QdTBsSm04cl9EYUZpV2Q1enJmRm1SempOVXFTLUNnMmhZRm9ZWFhLT1NjSVd1MXEzVDY1czBacDNSNA?oc=5",
-      "published": "Mon, 12 Oct 2026 05:21:52 GMT",
-      "source": "Cricinfo"
-    },
-    {
-      "category": "cricket",
-      "lang": "en",
-      "title": "Pakistan cricket hit by political turmoil! PCB shifts President’s Trophy matches after emergency in Khybe - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxORWtWejR3TWFadTh1c2pweFJiUlVFbDFzUFpzZUFWek93TVN3bi05SzdjdFh2a3M3ZTBRMXkzdFVFNElCMnVORTMyd3k5dEhMUlZ1NVVlemkzcHdBNDBpdWZ5c3RuWmVHN015Y3JDUnNGNmFVTUhZcnlKak4yYzZTY0NVMU9NQzBpREFYTHI3bGxzZ282MVVFYTdPeG0wMkppbDBVdHFtc3ZKQTVELTJDLUZjaFNoSkFfR0xSNHcycWRNYWVTcncxdTg2OVJGVUgtRG0wRE1GQ1ZqQ0dZTnQ2NjRuTHZLNDJCVXNtS2gyMmhoeUxQR3pZZHk0TmVkRFVaQXRua3M1YVVTODRDU2ZJN1ZpLWo2TEI2RjZuemNtTUlpQUlp0gGqAkFVX3lxTE4yTW9mUzl3TVdzMXJIdm9oRTBONjVBMXV6dnFfenRUUEs5RzVJVXdSYkRNeXhVSjJhXzdVREV1TUMxYVRXSU0tVFNTTDNYQ3FBTExvT24yTHZrT0t5Vm16d0JkNnM1QUhwSmE1WE1uNTMwaWE1Ymh4QTVleHVpWGlpZlY2NTJWTy1JWk1JWDU4SUVPN2ZybHE4cW80UzVWdkpzamtWXzlWemdNY1NuMUxUSTYxMjNvdldXN0FueEZHM21fTDk5Nm1sTzRRX3dDcmhHWjE4ZTh3aXo0ZVE4TjktRFpyNmtMa2lrT2c3dlcyTW1vVk83akVSdzZoQ2oxZEhnT0VTMXdhSGY4S0RtODhMRF9va2lxWnlRNjRzS0RiYXZDelB0enJSNkE?oc=5",
-      "published": "Mon, 12 Oct 2026 07:11:00 GMT",
-      "source": "The Times of India"
-    },
-    {
-      "category": "cricket",
-      "lang": "en",
-      "title": "India in Sri Lanka ODI Series, 2008 - India Cricket Team Records & Stats - Cricinfo",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOWQxcDFsMWp4N21UaWRMNXJYUWd5VzdyNjVNdkoySHhQNWJKaHlmeEdKdVpSVXpFVXhOZTY4al9YNTJSNlF5WmE4RG9LbExCbDRkYnlCQlJmbjVmRVdvYmNyWjNYNHkzUE1HVW1pN2xKQXJuVXI0QVVtX0YyMlk5MXM2UVFsblRiU1BteV94WVJrTFlnbW8wbW5vUVZqTzhhNHhYT3NKZ241ZVU?oc=5",
-      "published": "Sun, 11 Oct 2026 22:32:29 GMT",
-      "source": "Cricinfo"
-    },
-    {
-      "category": "cricket",
-      "lang": "en",
-      "title": "PAK vs IND, Gold Medal Match, Asian Games 2026 - Match Info - Cricbuzz",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVWp6MXFfcUlfcjczTTQ2cHE5ZDlKay1hU1R4YzBDcDVHSkxJY2luUE9UZlltVmNGUkxSUUJ1YWczUndzWlpGaXFJZVllM2lOYURBcld1T19OQ0N5WXVrRlZBeUFqMDI5U0xvR3NKWENvZ3RTVlJIczFFS2Qza29lLXlPQU03azFSbml1V1JJRGtHaWw3YkpFOFB6b2g?oc=5",
-      "published": "Mon, 12 Oct 2026 03:49:25 GMT",
-      "source": "Cricbuzz"
-    },
-    {
-      "category": "cricket",
-      "lang": "en",
-      "title": "India’s win in Indore deflects Tilak Varma’s run-out blunder | Cricket - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVENObHJxTXRwVG8ya2tDZjdsc2NGQmRZcnp6Q3VlajkzLWVKM3Z2Yk5vcjZNRENhOWtnM0JRSWRqTzJ1MWt6SzRyd1B5X0tVTTVVWnpsWW1EMzlSNGhPUGViQktBck9yckRGQjRtTDI3eWk2OUh5eDhZb3FGYlh4YUJJOGJndzRraThpUWYyZlhiVVJDVFU0SE1MVmZ6VnNSNlZfZXdNZjZ0VlFYLTlzd2FHN1VyRk04cVJz0gHAAUFVX3lxTE1RSFR1WE5YYXNYbmF5NG4xUy1tTDRqTHhZWnFJN21LYS1pSFViZjZOUHJnaEJNZUdWalp5UklXRUtPSzMtQUo5Y1dMMGdpVTU2dm9KN2J2OWE5cmpXWlZvaHFDcnJRcjV5ZmRqbGcxM3pzRWczc0QyTDl4cUtXcnlGV0l3ODdFZWJSdmlNai1yeHdaTVlnc3lKY2xFNDRwRVhiX1IwbTN6aVUyYi16NzA3X1Uwb0twMW50ajJOQXRmNg?oc=5",
-      "published": "Mon, 12 Oct 2026 05:53:29 GMT",
-      "source": "Hindustan Times"
-    },
-    {
-      "category": "cricket",
-      "lang": "en",
-      "title": "Grounds - Cricinfo",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51WTFEVENyVGFtWE5JZEJuOEVYNHVVcFlzN2N6TkItTXJ4OUoya3c2MWZ0aFJqVmVXWElnUVlGNlRIQXpmOG1fdkFacFNnSU5ka3RsZW8wQXBOejBxNDVaMlRPaVpZR0VhWnl3TlBpTTRNdlRmWHlhZjdwQQ?oc=5",
-      "published": "Sun, 11 Oct 2026 17:23:20 GMT",
-      "source": "Cricinfo"
-    },
-    {
-      "category": "cricket",
-      "lang": "en",
-      "title": "‘Economical’ Naman Dhir proves his worth In India's T20 set-up | Cricket - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdjJoN1poaVZsbGpFeUlBTGZRY19pQi1HdlRCUjd4NlVvOGJoV1FmTmE3RlhTOWt5Y1doS3lnVzlMUnE5bDFqQ2pjTmpsU1FodWY0UEVRWVJZT0lHQTRsZFZ5dWE5NGxsRzNhVlplUml1VXpyTm02eWVvYU1FR2UtaVgyazdEZ1RpNFdaSEpxdnB3UFdsZEJQR211dzdXYlVnc1VvaWQxLXNWMUZENHdOOER3SWE1blhOUFHSAb8BQVVfeXFMUGZHMlBXNlBvMjMxdzk0RHFsektzS3lLbS1rdVZTRDI1Z19KR3N4SEpjckdYQzdXOFc5anFXRG90WGhzOWJFQksyaWkzbWF2T2YtalNWNFRkZVhmWkNLcHB4QkNqUHJwLXBSWVhlei00UDlCRU00MFJhVzVPaHo5ODFfNEVEOVkwQlV6enY0OVMycFBTajNGMTBQN0NsWmI0eEVVb3JIbzdlYVBXeG5nME5ROEd5RHZBSGZwaU41MG8?oc=5",
-      "published": "Mon, 12 Oct 2026 06:21:48 GMT",
-      "source": "Hindustan Times"
-    },
-    {
-      "category": "cricket",
-      "lang": "en",
-      "title": "Why have India ‘A’ tours during Ranji Trophy, asks Dilip Vengsarkar - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQnRYdThiU3Bsc0ctM3FrUlpCeklLb3F3NkZGYTlYQ0NWbmtCZHpMd3VDNWZVeWhTb1hlMkxUdjRMZ0NqNG1ha0Q2MWdWUUZhRUFOVW1GeV9IanZUdk1vd29SUGxPSkhTdW44YW9DaVBWM1JRWE1HR1BuYXNtUXFhMnlWVk1vZDVaNlBXVHdsbWJtZm4xNVdXT2txR2NnS2pldFhsUE03dFF4dGtTWmYwOXQyMUxfLUxWM0QxVHBqcjI5NklRbmtsOGRieFBHWWpLRjlaNl9YTTRjME9ucnN30gHkAUFVX3lxTE1obERXa2ROak5VNjFkd1ppa3FJMC12bVAwTDkydHZtVWtkMDZvUURKZVJFdWNxQXdVY1lzQTVEQVdqTlZtV0dUaWhyQVlzRXZVNTN6bXdpQjU2MXJKUFlaQzFOR0d0SzJDNHAxdTR3YmtXMzdKT1BqQzg1WE1ObTBZQ3BNMEhtQWZRd0dxQTdWbWRkRkt3QnFFYkpvd1FQX2RuREdIYjJNbUs1SXhNRkxDLXpGUV9PT0hXa21sVmlBMHNTVVF6alZjSE9WdUVXX01NSTFzZ3NCOUgwM2FWSnJqS1dPaw?oc=5",
-      "published": "Mon, 12 Oct 2026 02:53:00 GMT",
-      "source": "The Times of India"
-    },
-    {
-      "category": "cricket",
-      "lang": "en",
-      "title": "‘Virat was a bit bitter’: Former India cricketer drops big verdict on Kohli's Test retirement - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPLVI3MGp0Q2R6TGVDRlR3alpqRE9CVWNxUnJtV1RpYlU5RklFQU9VTEFfU1BMY2QtY05OQkl3ZzZjVGxFc0dCWTltb2VYQmdCcXdaUXFiblNxTk1QZDVDUWdsZXVzdjJkS0NqUVk3LXk4WUpLOF9TYmRFalJMbzFJb3VtbzdKNVplYVF0QmVYOUEwV1J2TDlqbV9JY3hfd3RGSFRKVTI5cjdwVjhZRUlHRWZwTEhJNnVxMFBTdDRlSU5YdzNESU4zXzQyc0stck83OEROZkJxeUpZLWNUalQwQkpzdnhiVEdnbEs0RXFpNVBUd1Y4ZEQxbkdVYkhHZ0lW0gGGAkFVX3lxTE5sYlNRdUo3VXg1cjdNZ2RyNmp0VUVJbDNBd2QwSDhvZ0pOUjhtckhWNWE3bGJINlcwcVEyYXhlbTZSVjZpQWxqS1c0ZUJLa09OcS1FaHlBSGg2Ykg4M1dRSlFWTTZ3MGk5Z2F6c2Zfa0VyWWd4RGlYMEcwN0N5UW1YMlE1Njg5UkM0d2lTUkdOLWxlVXN4dTFocnJzRmU5QTVkZFpIYkhuVzVpT1doV2t3NGx5dnB0OU5MRWhQRE84ZGdkaGl0NVI0akdvd1JFOWFvUW5uU2liOGZNRXRwbVlkcVVpNkRKdGhmWEdCYTVhUzZ2Y2JkWEM0aFBqSzFlejJuV3hITUE?oc=5",
-      "published": "Mon, 12 Oct 2026 00:30:00 GMT",
-      "source": "The Times of India"
+      "title": "\"Even Gods Will Be Surprised\": Supreme Court Hears Arguments On Firecracker Use - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVTFTR3VxUGd2dHBxSERPSXE4YzkyNUtjTlduN2NpV3hSQV9ZTll5MXJxX2VaLWJDZ1hJMHVoYng0NnZDcE15Um1BQVNkZm5GMFRyMWhocWxITzlldnFsNjlxcUd1M2ZzZGN2em80dDBpc0NWX1N0QkRkREZVaHZlVzVVeVc2Nm85blFCSEd5Y2ljakNmal9sS0VvUExsRWJUclBsUDAzUm9NMklZeVJLb3F3RkxnRDU30gHAAUFVX3lxTE5xQnVBQlJNbmNpdGtOckZxQk82YUpHZW5KUllfSWNWY0dOS3FoLVB2aE1CQlZHc2pwbXV1WEdPSEhiejBKSFFLRVRzRDhtcG9CUkw2QnZXX3hHMkYybER5VlNIT252TGZBTWZrRTAxWkJGRlFBcmtiVnN2dVVzV1ZpYVNBWjFXWk9FT2NFcTd3TUhzLTdaTzZCcHNVU2stYXUySTF5MlJVbzlxeVBUR3pRMVl1MURQTXNyb0Qtd3pWZA?oc=5",
+      "published": "Mon, 12 Oct 2026 06:36:07 GMT",
+      "source": "NDTV"
     },
     {
       "category": "football",
@@ -412,14 +252,6 @@
     {
       "category": "football",
       "lang": "en",
-      "title": "Turning interest into fandom is our goal for women’s football: Jinisha Sharma - Forbes India",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYUw2N1ZuNlM5OW16aXZfR0pfYVpWanV3ZVprZVN0X2dacG1FTlBnOGE1cjdOeEJYQTE4eHhSUDFaS1IwOWE4YTdRRmRCN0Z5LWRXNEQ0bkprbkU2cElZQVJwT2o2STdpVzdxMVVGZnhON0M1NTB6TUhQaUxrbGk5dXNTeTBkZUtPSDVhSS00N29ucWx4R2xjX291N0hqbUZmQlg1bWlmSjM3NE9pUE5kaTBjUzhqRjJXcl9lQlR2SGh2REg50gHKAUFVX3lxTE5iQnV6UC1IZGtNNjU3Yl8yMjhWdGcxVlNMSE0zbUxBRndmbFVhN0J6UTdDRmxyWXk2SHV3WWlUSGROQ0NLTkNzV3lFcDhYN2RwX0l4dHBQVGlrNEgtZG1XVTFVYjh5M1Y5bFVjT0hRX0Vsc3hRUWpsaS1kTlJPYkNuSEgwM1lpeHkzU1RpZF9QcVdxODhzM1BpWHF6VWtoM1pBbndzM1pvRzdxVUpNTkcyWlFrUEJxUk9rdTRMek1pUTZtYXhxNmtRQXc?oc=5",
-      "published": "Mon, 12 Oct 2026 05:57:41 GMT",
-      "source": "Forbes India"
-    },
-    {
-      "category": "football",
-      "lang": "en",
       "title": "20 goals in three matches! India U17 women make history, become first-ever Indian side to qualify for bac - The Times of India",
       "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNeEMycUROaDN6MVl0ZWs1emZEaDlxYVhlSmF0bGRGUVhDbk1ITExtUUR2dHhkNmdKRmFGVVhDRmQ3RGt0YVJfUDBlS3gzcDhXTlBPRGFpQ0NXVFJSWWppSDFJN2RNTGFmdjNld01BbDFYVHphNlQ4dE5WTmVLSnBsd3FNdGk0WW1fOW9aYkRSSmx5OHYzckhfaDltc0M4VnkwaXdlSGVxYlRoUGJ0dWhST2pkVEY0ZzJtSjJoWnNQQUNWNjJnX1FVWUR5aXZaSWFqXzhhRjRVU29Wb3VZZzNrRlNpU0txVFlvMnVCR3BneXZmRWNSMHoydzV5X2tYWlBBNzh6WEtsYUFzblBvVGdFRVlKcC1oaU1CbmFoUFVhdC1HcktsYUlCUFc4Rmk3b2FPY0pjRUIxMUrSAb4CQVVfeXFMT04yMUFMMWhTUm9mWFFwMUZkM0FTM1VzaDV4RWdZdEllQUFCYzd0VnV4Ri02czZYWVNtdmZudUp3NDRhV2c3eVU0UmwzQ1NUQXU4aUltQUQyYWMzaGNldVItNmVJM2Q2bG9HX2l5NmdmSkwzdmNTcTlTTUd4YzdtNWpWdFI3VjMxREFMQkFrR2htZktaVWFRWWpYeTF1NFJYV05OSVB4WHBmTFNiOW1oNWVKTGNEaGRzaWgyNFltSmRBYVdXR2Q2LU5hRnVJc1RWYjA0bHI3d3NLTnREOEVLRE5MOGZCWmxYNkFmaGFLdUc4UWJkbGszNnFyLWlfWk5pX3Vvem9sLVhlS3E4T2JJbTFua2N6eVlaYWkwXzRJLWxxMFpSUVRieXg1cmw4RFV0N2U4WUdJWVFyUFY5TzFR?oc=5",
       "published": "Mon, 12 Oct 2026 04:55:00 GMT",
@@ -428,10 +260,34 @@
     {
       "category": "football",
       "lang": "en",
+      "title": "Sanfida features twice for India vs Russia but Tigresses lose heavily - The Sports Room",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcnlDSXc2QUNZd3NvSzcxY0Z3eGU0Q0tVVUFEN1B1X0owLU5UeV9mWkMtMXdHUlBfZmI4RFBaZFdWWEJkdnJrY2hSekpKdTRMQzZmWjllOUZuX1cxdkJ6ZHpjNEVwWHpOY2lyMDk5WjJMcjFPRkpGcEVCeXZuc0pVcl8waHhJeFZhOVhxdkNPSjlFUnowemtHMlNfVDdyMjlNYzZpalUzZjlYMnpWSU1OLUMzQmEwaTlrLTg40gGyAUFVX3lxTFByLXVOYncyUzMtOVQydno0cXYwT0g4bmtKSUxiZmlKVUd3TmFidG1NUnJNWFRKX1pyMkhhWTM5b196Z20zMnZrRXNSeHNvNHd6SmFIdGFaRTE5ajlzQ2ZNZC1YbDBxSXBROXFwbGNobENpclk0LU0tZENCTzh6UkxEQWVwdGJ3N0hlSUVuZDBldnlvbkg1MDZnTzFzVW5TYldvTGpiaWRZWWZ3MkxZUXJCYkE?oc=5",
+      "published": "Mon, 12 Oct 2026 06:57:40 GMT",
+      "source": "The Sports Room"
+    },
+    {
+      "category": "football",
+      "lang": "en",
+      "title": "Suspended from Portugal team, Cristiano Ronaldo claims he is the best in history - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQS0drVy1DbWhQOXhHNjBtNE9ROVNJX19kbUhDMEtPb0Uwa0lQa3R5OWpGN2FOTjR0blRSR28xZXZpTjVSdndNbDVCMzNRN0oyQXBmWjE0cTNQZzU1bkJyWUxTa2J0Z3RKOFhvMWtiVy04MVl1Y29SWndmMDctN25TWVlOWlAzOGVPd25RNjJnYUl1aWJFQ2o4VG0tZHF1dENoQlliT3Zwa0pNUzdqc2tsYnM3YkVWY3cwRzhVaVY4Q1dzckNUWXhMWjNFb1d1OV9TX3loLW0xelNIOFBW0gHcAUFVX3lxTFBLR2tXLUNtaFA5eEc2MG00T1E5U0lfX2RtSEMwS09vRTBrSVBrdHk5akY3YU5ONHRuVFJHbzFldmlONVJ2d01sNUIzM1E3SjJBcGZaMTRxM1BnNTVuQnJZTFNrYnRndEo4WG8xa2JXLTgxWXVjb1Jad2YwNy03blNZWU5aUDM4ZU93blE2MmdhSXVpYkVDajhUbS1kcXV0Q2hCWWJPdnBrSk1TN2pza2xiczdiRVZjdzBHOFVpVjhDV3NyQ1RZeExaM0VvV3U5X1NfeWgtbTF6U0g4UFY?oc=5",
+      "published": "Mon, 12 Oct 2026 10:09:24 GMT",
+      "source": "India Today"
+    },
+    {
+      "category": "football",
+      "lang": "en",
       "title": "From Pramveer to Sanan — Young Indian players to look out for in ISL 2026-27 - Sportstar",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbEYzZGFkX0dHSS15VzlrY0lsUV93dzNyYThQRXBEdDM3LWY3cWhtMFQ2NWwwREF3UUMwcmdrcFVueTZKRENPOXF4VWU3a0NLcFFTV1MxS21MV1ZuS2F3UWpScDhobFItUW9FWFRaRjB3cFZKcnhEQVVUeTJfOXhVVUk1b05fTEdJWlpGQ2ktUHB5b0J0RE1OVEZmc3BfMUNJZjh3ZU1iX1dZTk1rM2ZQTFh4MmdIeHByTGxEd3VpNNIBvwFBVV95cUxNbEYzZGFkX0dHSS15VzlrY0lsUV93dzNyYThQRXBEdDM3LWY3cWhtMFQ2NWwwREF3UUMwcmdrcFVueTZKRENPOXF4VWU3a0NLcFFTV1MxS21MV1ZuS2F3UWpScDhobFItUW9FWFRaRjB3cFZKcnhEQVVUeTJfOXhVVUk1b05fTEdJWlpGQ2ktUHB5b0J0RE1OVEZmc3BfMUNJZjh3ZU1iX1dZTk1rM2ZQTFh4MmdIeHByTGxEd3VpNA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMng0Y1diZkIyUDVndHhncW5PMUNCQ0JUZkZDT29vbmQ2UVI0WUVqMW5qYWM5TVQ0R1AyQm8teThGNjN3MS1TSXB3YXdFc0lUb1RfMzVycWRmeDNfTXRVOTd1RF9QaE00YVNoWHAwTDJGVFFSUG1iVEJVeENDX09icTZXNkJtVGhIOVBvVUhZM2daam9FcklTR1g1VnhqdHV2NFBUaUt0RmVmS1I3UW10SllkRWRUem5K0gG_AUFVX3lxTE1sRjNkYWRfR0dJLXlXOWtjSWxRX3d3M3JhOFBFcER0MzctZjdxaG0wVDY1bDBEQXdRQzByZ2twVW55NkpEQ085cXhVZTdrQ0twUVNXUzFLbUxXVm5LYXdRalJwOGhsUi1Rb0VYVFpGMHdwVkpyeERBVVR5Ml85eFVVSTVvTl9MR0laWkZDaS1QcHlvQnRETU5URmZzcF8xQ0lmOHdlTWJfV1lOTWszZlBMWHgyZ0h4cHJMbER3dWk0?oc=5",
       "published": "Mon, 12 Oct 2026 04:44:39 GMT",
       "source": "Sportstar"
+    },
+    {
+      "category": "football",
+      "lang": "en",
+      "title": "Russia Thrash India 8-0 in Women’s Football Friendly in Kolkata - Bold News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUUlCQ0JFTlFZajZKaUl4azhkZk14VURleDVyaXN5S21icFQ2cXVfZkNYX3VPZUJ3bDZEWVR2T282THpiMldTd2NRRDh3cndtNlR5STE4akdzNjY1REJVei1PeHcxZXg2MWpubkVuMmFwcmFJWXlHVGsyRHpjV0Y3YnZkQ2pWVXhqNzJXV2ZhY1JfZlcy?oc=5",
+      "published": "Mon, 12 Oct 2026 05:28:57 GMT",
+      "source": "Bold News"
     },
     {
       "category": "football",
@@ -452,34 +308,18 @@
     {
       "category": "football",
       "lang": "en",
+      "title": "History Made at Fatorda as Churchill Brothers Beat Mumbai City FC - Football Counter",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1hvanpNQWJod052V2RIQ1FneU94M1FWVXNVOW8wV0pGY0tWVmFFZGc4QXVJbUdxaWpoZkt5b2VaeUpUR09HM3hQd292VjFjTzdTRmdqcEkwcUhDRDhkS0FsU0ZGTnF5eTdxRlBhSm1IUmZiWmlIYmY5ekcxaFVhWlJyN2VIQjhxUFpGUmN2OFJkR2E3Z3NYZTQ3VzZQbmZnQWluc2d3?oc=5",
+      "published": "Mon, 12 Oct 2026 08:23:56 GMT",
+      "source": "Football Counter"
+    },
+    {
+      "category": "football",
+      "lang": "en",
       "title": "Nandini debuts in senior football team, plays against Russia - The Tribune",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR0tDTVloTDlZRjBnQlcxZVdzSFF5X1JKWXhpT1pNaGpKcG1YeV96bTI4Y25YVXRfMXZIcE5aM29td2JEVWFqV1RoOVVqcW9nNU5MWmVna2lnYTAtQnFSSGpta1BvVHJiODBPRndWN2JmdFZZY0YzcFRFcFM3eExHcTE3a0U3M2NWQUZXdUJGWlZrMGxpQzdZMFY0SmNDWXJBM29uc18tbmvSAawBQVVfeXFMTmpIdm9adHplTEdTOUMwNFFOb0IzeXQ0akhfS2lXTW1NaE82dlFDRncwclJmektKNVNlZDBwS3J4MjJ0WDFYTzNTWjVseml1TXZfTkJSZHU0OE91eTROVUtpeXpjajI1YmgyYnJpcm5tUkhQSGRibTBNclhyc1c3eGZnUE9BUkZLTWs0ZWlOTkNiNHhtdUQwcm0xZkNhNGxBbE1aUV9XT0pmQnMyWg?oc=5",
       "published": "Sun, 11 Oct 2026 20:18:59 GMT",
       "source": "The Tribune"
-    },
-    {
-      "category": "football",
-      "lang": "en",
-      "title": "India Thrash Malaysia 4-0 To Secure Historic Qualification For U17 Women's Asia Cup - News18",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQ09MQ2RVeHJEa1ptSDVrbVJveE1BWlFUMEl2LXR2Ty1ubHpDMV96eHp6MWVqNVQwaGUzdzRNbi0xc0pPN1lRRURfMkRnRW1nUHFPVlhJVlVMaEZIQ2ZLTE5tZUlqb2pXSmhqV3R2TDJJVFE2TnVmbGZoMWJsd0kwZDdoTDVGS2JkMmVTU0ZGbGcwZU94dXRnRUQtNkFiUkh5QkdFdmxlVjlmUkxELWR4bXdYWWpwWnQ4Zm44OUxFR1FGRXUtYmcyTXZIUG5PNWhHc1RPVGU2Z9IB3AFBVV95cUxNZUlMZWVVME0zaFFmc3pReDJ5QkZoS2hTTkhkNkRQOGxKMlBHVWFjWC04aGNTd3ZmdU1hZnRFM1E2Sld4NVQxLTR4NUFXMjE4dTIxbzY1ZmNUYWhsNG1pcUZCRk5OaUtqSzMwU1Z5cVhnTXp1d0xrQ2pUU0RMVEpyMEozamlqR1BHcEc3aGJWT2dKTGJsT2xMandxWDhaLTAwWmJxUzdXWGN2NXJnZFVnYUtSczRGQlNBTFpIdUpXVF9WU1ZfTW5wLVJkTFZOV1VkQjBjMnRtdjQtLUtQ?oc=5",
-      "published": "Sun, 11 Oct 2026 15:54:16 GMT",
-      "source": "News18"
-    },
-    {
-      "category": "football",
-      "lang": "en",
-      "title": "Russia hand India another reality check, win 8-0 - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeTRoUmI1c20yYkVCdk8zMWJJTkpuOXhJaG50ZktYRFMwcVBWeGJzdzQyaFI3ZnlOSTVLbmFSdXk3OGFlaFZpM0pScjdFY2lRb1Q0ZEpURWZwdDF3cDc1ZkxXc2tnZUN5WjVzY1FnTzdLUFV3MkR6Ums1NnRSUVpQVFVOcTduZWs1VXVYVjFfa3hiSWhKeDBmRkpRdzExSnV1dVRBYjQtTklqcFZob0xHSXNvdWEzMVlSOXhJN2t1ak5EdG02MURyN29Kcmp4MmhSRG1z0gHYAUFVX3lxTE12ZE94VTJVNUFlanE3MFYxeHRQMG1RVGFJcDQxNjcyanN6UlZPWU93ejlJQjdFSzkxMDB1SDFMSC1yOW1NYVVWRnpkcUw3eU5OTXdYQ0NfQW1rOTVaYUppa0NWQV90OE54VHZqZWNNOWw4UUwxOUJyZENGRmdReWNJWmtLUjc5N0dwTGk1NnZJeDRkQ2hHQkp4TXRURmdycWRSWFppTmoteHdCMk1WVUk0LVkxQ1RpWHVuUFEyaGlGTzVfbnc2OVVibXdxSGhENm9LTW9iel8tNQ?oc=5",
-      "published": "Mon, 12 Oct 2026 04:17:00 GMT",
-      "source": "The Times of India"
-    },
-    {
-      "category": "football",
-      "lang": "en",
-      "title": "India suffers 0-8 defeat to Russia in second women’s football friendly in Kolkata - Sportstar",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOYkd6Ul9uNHRlYjU0VmVVXzBvcjFnaFVsZnVaUzRXSEFtWTY0ZDhUMk5VcTI5ZzNuV3BndU1vTUtMdjh4WUx3YWFtX0lHRkVzLWI5UVVuZkhtckVFS01FRmpZc2FQTHNhZ2ZhNGZBbXZVWmhnU0hleGlCb0dKNjJ3YUpjdnpoWnd3UWdmb19pa01nOHk4Sm5GUXVuOTNKVm9TcTF2VDlrYXZkMDVwTXMwQmVBV0hBWUFBcGtocmtIWVh5ZW9fc2doYjZudkswREt5Q29aLVg5dXlWNzFCbU1kV1dheFc3bjhUN3fSAfABQVVfeXFMT2xFdmpQZFg3bkVKMFpqMk00aUh0a0czN0t5RU1rN1RJekRRSkJRMVM5bmVObU5VTnA2MkVMTzhKNzU0UW85R0pDblNWUGtOTHVZY0c5RmVzX090a1hOV3VTXzFQRlNISXltcVVMV3A0Y0wxcmNkQ2tuemIxZUl5OTlHVWc4UTBrSVZpbHRNcGQ4ZmFIbWdzd1FybFVvUGRUMVpINE5WcEt3SnU1X2ZwYW8xaGg0WmlKS2RSc2taRm9sb1duakFXVU5uTWgySkNqR3FXaHQydDBLRmNJeFp1SERIRFU5ZWhjbzJrSVpvRTk2?oc=5",
-      "published": "Sun, 11 Oct 2026 16:46:58 GMT",
-      "source": "Sportstar"
     }
   ]
 }
