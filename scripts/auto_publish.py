@@ -220,18 +220,21 @@ try:
 except (FileNotFoundError, json.JSONDecodeError):
     existing = []
 
-# Safe single-article test: Bengali earning article only.
-category, topic = topics[0]
-stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
-article = generate("bn", category, topic)
+# Daily rotation: one category and one language per run.
+day_number = today.toordinal()
+category, topic = topics[day_number % len(topics)]
+language = "bn" if day_number % 2 == 0 else "en"
+print("Today's article:", language, category, topic)
+
+article = generate(language, category, topic)
 
 if article:
     normalized_title = re.sub(
-        r"[^\\w]", "", str(article.get("title", "")).casefold(),
+        r"[^\w]", "", str(article.get("title", "")).casefold(),
         flags=re.UNICODE
     )
     existing_titles = {
-        re.sub(r"[^\\w]", "", str(item.get("title", "")).casefold(),
+        re.sub(r"[^\w]", "", str(item.get("title", "")).casefold(),
                flags=re.UNICODE)
         for item in existing
     }
@@ -239,14 +242,15 @@ if article:
     if not normalized_title or normalized_title in existing_titles:
         print("Skipping duplicate/empty title:", article.get("title", ""))
     else:
-        filename = f"article-bn-{stamp}.html"
+        filename = f"article-{language}-{stamp}.html"
         title = html.escape(str(article["title"]))
-        paragraphs = "\\n".join(
+        paragraphs = "\n".join(
             "<p>" + html.escape(str(p)) + "</p>"
             for p in article["paragraphs"]
         )
+        langname = "bn" if language == "bn" else "en"
         page = f"""<!DOCTYPE html>
-<html lang="bn">
+<html lang="{langname}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -259,21 +263,21 @@ a{{color:#087d61}}article{{background:#fff;padding:18px}}
 </head>
 <body><a href="../index.html">Home / হোম</a>
 <article><h1>{title}</h1>
-<small>Category: earning | Language: bn</small>
+<small>Category: {html.escape(category)} | Language: {language}</small>
 {paragraphs}
 </article></body></html>"""
         (ARTICLES / filename).write_text(page, encoding="utf-8")
         existing.insert(0, {
             "title": str(article["title"]),
             "file": filename,
-            "lang": "bn",
+            "lang": language,
             "category": category,
             "date": str(today)
         })
         print("Created:", filename)
 
     INDEX.write_text(
-        json.dumps(existing[:200], ensure_ascii=False, indent=2) + "\\n",
+        json.dumps(existing[:200], ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8"
     )
     print("Article list updated.")
