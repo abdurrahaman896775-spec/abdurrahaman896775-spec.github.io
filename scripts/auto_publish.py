@@ -1,4 +1,5 @@
 import os, json, urllib.request, urllib.error, html, re, time
+from urllib.parse import quote
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -122,10 +123,57 @@ Avoid guaranteed income claims and misleading promises.
         + "; ".join(errors)
     )
 
+
+def generate_topic_image():
+    image_dir = ARTICLES / "images"
+    image_dir.mkdir(parents=True, exist_ok=True)
+    image_file = image_dir / f"{category}-{stamp}.jpg"
+
+    fallbacks = {
+        "earning": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+        "ai": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+        "mobile": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
+        "video": "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1200&q=80",
+        "cricket": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=1200&q=80",
+        "football": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
+        "news": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+    }
+
+    api_key = os.environ.get("POLLINATIONS_API_KEY")
+    if api_key:
+        prompt = (
+            f"Editorial illustration about {topic}, category {category}, "
+            "for a helpful beginner blog, clear subject, attractive landscape "
+            "composition, no text or letters"
+        )
+        url = (
+            "https://gen.pollinations.ai/image/"
+            + quote(prompt, safe="")
+            + "?model=flux&width=768&height=512"
+        )
+        try:
+            req = urllib.request.Request(
+                url, headers={"Authorization": "Bearer " + api_key}
+            )
+            with urllib.request.urlopen(req, timeout=120) as response:
+                content_type = response.headers.get("Content-Type", "")
+                data = response.read()
+            if content_type.startswith("image/") and data:
+                image_file.write_bytes(data)
+                print("Generated image:", image_file.name)
+                return "images/" + image_file.name
+            print("Image API returned non-image data; using fallback")
+        except Exception as e:
+            print("Image generation failed; using fallback:", e)
+
+    return fallbacks.get(category, fallbacks["earning"])
+
 try:
     existing = json.loads(INDEX.read_text(encoding="utf-8"))
 except (FileNotFoundError, json.JSONDecodeError):
     existing = []
+
+topic_image_url = generate_topic_image()
 
 for language in ("bn", "en"):
     article = generate(language)
@@ -135,16 +183,7 @@ for language in ("bn", "en"):
         "<p>" + html.escape(str(p)) + "</p>"
         for p in article["paragraphs"]
     )
-    image_urls = {
-        "earning": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
-        "ai": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
-        "mobile": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
-        "video": "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1200&q=80",
-        "cricket": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=1200&q=80",
-        "football": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80",
-        "news": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-    }
-    image_url = image_urls.get(category, image_urls["earning"])
+    image_url = topic_image_url
     page = f"""<!DOCTYPE html>
 <html lang="{language}">
 <head>
