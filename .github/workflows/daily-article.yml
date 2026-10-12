@@ -27,10 +27,12 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
         run: python scripts/auto_publish.py
-      - name: Publish articles
+      - name: Fetch daily news and sports RSS
+        run: python scripts/update_feeds.py
+      - name: Publish articles and updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add articles.json articles/
+          git add articles.json articles/ updates.json
           git commit -m "Publish daily bilingual articles" || exit 0
           git push

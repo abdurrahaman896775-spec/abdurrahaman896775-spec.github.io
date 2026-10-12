@@ -41,6 +41,10 @@ small{color:#64748b}
 </div>
 <nav id="categories"></nav>
 <div class="card">
+<h2 id="updates-heading"></h2>
+<div id="updates-list">Loading updates...</div>
+</div>
+<div class="card">
 <h2 id="latest"></h2>
 <div id="article-list">Loading articles...</div>
 </div>
@@ -54,7 +58,7 @@ en:{
 tag:'News, online earning, sports and AI technology.',
 welcome:'Welcome to AI Path Bangla',
 intro:'Explore news, practical ways to earn online, cricket and football updates, AI tools and technology guides.',
-latest:'Latest Articles',
+latest:'Latest Articles',updates:'Latest News & Sports',
 loading:'Loading articles...',empty:'No articles in this section yet.',
 cats:[['all','All'],['news','News'],['earning','Online Earning'],['cricket','Cricket'],['football','Football'],['ai','AI & Technology'],['mobile','Mobile Tips']]
 },
@@ -62,7 +66,7 @@ bn:{
 tag:'বাংলা ও ইংরেজিতে খবর, অনলাইনে আয়, খেলাধুলা ও AI প্রযুক্তি।',
 welcome:'AI Path Bangla-তে স্বাগতম',
 intro:'বাংলা খবর, অনলাইনে আয়ের উপায়, ক্রিকেট-ফুটবল আপডেট, AI টুল এবং প্রযুক্তির গাইড পড়ুন।',
-latest:'সাম্প্রতিক আর্টিকেল',
+latest:'সাম্প্রতিক আর্টিকেল',updates:'সাম্প্রতিক খবর ও খেলা',
 loading:'আর্টিকেল লোড হচ্ছে...',empty:'এই বিভাগে এখনও কোনো আর্টিকেল নেই।',
 cats:[['all','সব বিষয়'],['news','নিউজ'],['earning','অনলাইনে আয়'],['cricket','ক্রিকেট'],['football','ফুটবল'],['ai','AI ও প্রযুক্তি'],['mobile','মোবাইল টিপস']]
 }
@@ -91,7 +95,60 @@ b.onclick=()=>{category=id;render();};
 nav.appendChild(b);
 });
 loadArticles(w);
+loadUpdates(w);
 }
+
+function loadUpdates(w){
+const box=document.getElementById('updates-list');
+document.getElementById('updates-heading').textContent=w.updates;
+box.textContent=w.loading;
+fetch('./updates.json?ts='+Date.now()).then(r=>{
+if(!r.ok) throw new Error('Updates unavailable');
+return r.json();
+}).then(data=>{
+box.replaceChildren();
+const labels=lang==='bn'
+?{news:'খবর',cricket:'ক্রিকেট',football:'ফুটবল'}
+:{news:'News',cricket:'Cricket',football:'Football'};
+const items=(data.items||[]).filter(item=>
+(item.lang||'bn')===lang &&
+['news','cricket','football'].includes(item.category)
+);
+if(!items.length){box.textContent=w.empty;return;}
+for(const cat of ['news','cricket','football']){
+const group=items.filter(item=>item.category===cat);
+if(!group.length) continue;
+const heading=document.createElement('h3');
+heading.textContent=labels[cat];
+box.appendChild(heading);
+group.forEach(item=>{
+const p=document.createElement('p');
+const a=document.createElement('a');
+a.href=item.url;
+a.target='_blank';
+a.rel='noopener noreferrer';
+a.textContent=item.title;
+p.appendChild(a);
+const small=document.createElement('small');
+small.textContent=' — '+(item.source||'Google News')+
+(item.published?' · '+item.published:'');
+p.appendChild(document.createElement('br'));
+p.appendChild(small);
+box.appendChild(p);
+});
+}
+const note=document.createElement('small');
+note.textContent=lang==='bn'
+?'সূত্র: Google News RSS। এটি লাইভ স্কোর নয়; মূল খবরের লিংকে গিয়ে বিস্তারিত দেখুন।'
+:'Source: Google News RSS. These are not live scores; open the source link for details.';
+box.appendChild(note);
+}).catch(()=>{
+box.textContent=lang==='bn'
+?'আপডেট লোড হয়নি। পরে আবার চেষ্টা করুন।'
+:'Updates could not load. Please try again later.';
+});
+}
+
 function loadArticles(w){
 const list=document.getElementById('article-list');
 list.textContent=w.loading;
