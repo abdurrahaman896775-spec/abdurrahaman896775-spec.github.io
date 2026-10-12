@@ -135,6 +135,11 @@ for language in ("bn", "en"):
         "<p>" + html.escape(str(p)) + "</p>"
         for p in article["paragraphs"]
     )
+    image_url = (
+        "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
+        if language == "bn" and "AI" in str(article["title"]).upper()
+        else "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+    )
     page = f"""<!DOCTYPE html>
 <html lang="{language}">
 <head>
@@ -145,10 +150,12 @@ for language in ("bn", "en"):
 <style>
 body{{font-family:Arial,sans-serif;line-height:1.8;max-width:800px;margin:24px auto;padding:16px;color:#20283a}}
 a{{color:#087d61}}article{{background:#fff;padding:18px}}small{{color:#64748b}}
+img.article-image{{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;border-radius:12px;margin:16px 0 22px}}
 </style>
 </head>
 <body><a href="../index.html">Home / হোম</a>
 <article><h1>{title}</h1>
+<img class="article-image" src="{image_url}" alt="{title}" loading="lazy">
 <small>Category: {html.escape(category)} | Language: {language}</small>
 {paragraphs}
 </article></body></html>"""
