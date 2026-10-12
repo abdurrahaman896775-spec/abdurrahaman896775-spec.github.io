@@ -117,29 +117,8 @@ Avoid guaranteed income claims and misleading promises.
                     continue
                 break
 
-    print("Gemini unavailable; using offline article fallback.")
-
-    if language == "bn":
-        return {
-            "title": topic + " : নতুনদের জন্য সহজ গাইড",
-            "paragraphs": [
-                topic + " সম্পর্কে জানার আগে নির্ভরযোগ্য তথ্য যাচাই করুন। নতুনদের ছোট ছোট ধাপে শেখা শুরু করা উচিত।",
-                "প্রথমে প্রয়োজনীয় বিষয়গুলো বুঝে নিন। কোনো সিদ্ধান্ত নেওয়ার আগে সুবিধা, অসুবিধা, খরচ এবং ঝুঁকি বিবেচনা করুন।",
-                "নিয়মিত অনুশীলন করুন এবং নিজের অগ্রগতি লিখে রাখুন। ভুল হলে তা থেকে শিখে ধীরে ধীরে উন্নতি করুন।",
-                "অনলাইনে পাওয়া প্রতিটি তথ্য বিশ্বাস করবেন না। বিশ্বস্ত উৎসের সঙ্গে মিলিয়ে দেখুন এবং ব্যক্তিগত তথ্য সুরক্ষিত রাখুন।",
-                "উপসংহার: ধৈর্য ধরে শেখা, তথ্য যাচাই করা এবং নিয়মিত অনুশীলন করাই ভালো ফল পাওয়ার গুরুত্বপূর্ণ উপায়।"
-            ]
-        }
-    return {
-        "title": topic + ": A Simple Guide for Beginners",
-        "paragraphs": [
-            "Understanding " + topic + " starts with reliable information and a clear learning goal. Beginners should start with small, manageable steps.",
-            "Learn the basics first. Before making a decision, consider the benefits, limitations, costs and possible risks.",
-            "Practise regularly and keep track of your progress. Learn from mistakes and improve gradually instead of expecting instant results.",
-            "Do not trust every claim found online. Check reliable sources and protect your personal information when using digital services.",
-            "Conclusion: Consistent learning, careful research and regular practice are useful foundations for making progress."
-        ]
-    }
+    print("Gemini unavailable; skipping this article:", language, category)
+    return None
 
 
 def generate_topic_image(category, topic, stamp):
@@ -214,6 +193,13 @@ for category, topic in topics:
 
     for language in ("bn", "en"):
         article = generate(language, category, topic)
+        if not article:
+            continue
+        normalized_title = re.sub(r"[^\w]", "", str(article.get("title", "")).casefold(), flags=re.UNICODE)
+        existing_titles = {re.sub(r"[^\w]", "", str(item.get("title", "")).casefold(), flags=re.UNICODE) for item in existing}
+        if not normalized_title or normalized_title in existing_titles:
+            print("Skipping duplicate/empty title:", article.get("title", ""))
+            continue
         filename = f"article-{language}-{stamp}.html"
         title = html.escape(str(article["title"]))
         paragraphs = "\n".join(
