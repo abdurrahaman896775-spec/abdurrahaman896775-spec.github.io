@@ -117,10 +117,29 @@ Avoid guaranteed income claims and misleading promises.
                     continue
                 break
 
-    raise RuntimeError(
-        "All Gemini models failed. Check API quota, model access and service status. "
-        + "; ".join(errors)
-    )
+    print("Gemini unavailable; using offline article fallback.")
+
+    if language == "bn":
+        return {
+            "title": topic + " : নতুনদের জন্য সহজ গাইড",
+            "paragraphs": [
+                topic + " সম্পর্কে জানার আগে নির্ভরযোগ্য তথ্য যাচাই করুন। নতুনদের ছোট ছোট ধাপে শেখা শুরু করা উচিত।",
+                "প্রথমে প্রয়োজনীয় বিষয়গুলো বুঝে নিন। কোনো সিদ্ধান্ত নেওয়ার আগে সুবিধা, অসুবিধা, খরচ এবং ঝুঁকি বিবেচনা করুন।",
+                "নিয়মিত অনুশীলন করুন এবং নিজের অগ্রগতি লিখে রাখুন। ভুল হলে তা থেকে শিখে ধীরে ধীরে উন্নতি করুন।",
+                "অনলাইনে পাওয়া প্রতিটি তথ্য বিশ্বাস করবেন না। বিশ্বস্ত উৎসের সঙ্গে মিলিয়ে দেখুন এবং ব্যক্তিগত তথ্য সুরক্ষিত রাখুন।",
+                "উপসংহার: ধৈর্য ধরে শেখা, তথ্য যাচাই করা এবং নিয়মিত অনুশীলন করাই ভালো ফল পাওয়ার গুরুত্বপূর্ণ উপায়।"
+            ]
+        }
+    return {
+        "title": topic + ": A Simple Guide for Beginners",
+        "paragraphs": [
+            "Understanding " + topic + " starts with reliable information and a clear learning goal. Beginners should start with small, manageable steps.",
+            "Learn the basics first. Before making a decision, consider the benefits, limitations, costs and possible risks.",
+            "Practise regularly and keep track of your progress. Learn from mistakes and improve gradually instead of expecting instant results.",
+            "Do not trust every claim found online. Check reliable sources and protect your personal information when using digital services.",
+            "Conclusion: Consistent learning, careful research and regular practice are useful foundations for making progress."
+        ]
+    }
 
 
 def generate_topic_image(category, topic, stamp):
