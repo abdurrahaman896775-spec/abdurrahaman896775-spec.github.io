@@ -176,13 +176,17 @@ box.textContent=lang==='bn'
 function loadArticles(w){
 const list=document.getElementById('article-list');
 list.textContent=w.loading;
-fetch('./articles.json').then(r=>r.json()).then(items=>{
+fetch('./articles.json?ts='+Date.now()).then(r=>{
+if(!r.ok) throw new Error('Articles unavailable');
+return r.json();
+}).then(items=>{
 list.replaceChildren();
 items=items.filter(item=>{
 const itemLang=item.lang||'bn';
 const itemCat=item.category||'all';
 return itemLang===lang&&(category==='all'||itemCat===category||itemCat==='all');
 });
+items.sort((a,b)=>(b.file||'').localeCompare(a.file||''));
 if(!items.length){list.textContent=w.empty;return;}
 items.forEach(item=>{
 const p=document.createElement('p');
@@ -192,7 +196,9 @@ a.textContent=item.title;
 p.appendChild(a);
 list.appendChild(p);
 });
-}).catch(()=>{list.textContent='Could not load articles / আর্টিকেল লোড করা যায়নি।';});
+}).catch(()=>{
+list.textContent='Could not load articles / আর্টিকেল লোড করা যায়নি।';
+});
 }
 render();
 </script>
